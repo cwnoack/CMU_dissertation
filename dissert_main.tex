@@ -1,19 +1,22 @@
 \documentclass[11pt,letterpaper,twoside,openright]{book}
 \usepackage[parfill]{parskip}
 \usepackage{latexsym}
-\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{amsfonts,amsmath,amssymb,siunitx}
 \usepackage{url}
 \usepackage[utf8]{inputenc}
-\usepackage{fancyref}
-\usepackage{hyperref}
-\hypersetup{colorlinks=false,pdfborder={0 0 0},}
 \usepackage{textcomp}
 \usepackage{longtable}
 \usepackage{multirow,booktabs}
 \usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{chapterbib}
+\usepackage{hyperref}
 
 \usepackage[Lenny]{fncychap}
 \ChTitleVar{\Huge\sffamily\bfseries}
+
+
+\renewcommand{\bibname}{References}
 
 \begin{document}
 
@@ -43,10 +46,10 @@ This page intentionally left blank.
 
 % Chapter 1 - Intro, problem, goals
 \mainmatter
-\input{Ch1_Introduction}
+\include{Ch1_Introduction}
 
-\input{Ch3_REE-in-water}
+\include{Ch3_REE-in-water}
 
-\input{Ch4_LLE}
+\include{Ch4_LLE}
 
 \end{document}
