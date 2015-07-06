@@ -20,51 +20,49 @@ With proper characterization of the natural samples of interest, this method cou
 
 \section{Introduction}
 
-The rare earth elements (REE) are among the most frequently cited critical materials for clean energy and high-tech manufacturing.1, 2 
-The unique and varied properties of REE have led to their application in more consumer products than nearly any other element group.3
-REE are mostly obtained from mining and processing of REE-enriched ores.2
+The rare earth elements (REE) are among the most frequently cited critical materials for clean energy and high-tech manufacturing \citep{APS_CritMat,USDOE_CritMat}.
+The unique and varied properties of REE have led to their application in more consumer products than nearly any other element group \citep{Castor_Hedrick}.
+REE are mostly obtained from mining and processing of REE-enriched ores \citep{USDOE_CritMat}.
 While economically preferred, mining is laborious with a significant environmental burden, and inexpensive alternative sources of critical materials are sought after resources.
 
 Aqueous byproduct or waste streams, both natural and industrial, are potential sources of the REE and other critical materials.
-With increasing global interest in geothermal energy,4
-development of unconventional oil and gas resources (e.g. hydraulic fracturing of organic rich shales),5
-and desalination technologies,6, 7
+With increasing global interest in geothermal energy \citep{Lund_Geothermics_2011},
+development of unconventional oil and gas resources (e.g. hydraulic fracturing of organic rich shales) \citep{EIA_2013},
+and desalination technologies \citep{Shannon_Nat_2008, Elimelech_Sci_2011},
 large volumes of waste brines are being managed and processed at great expense.
 Development of technologies for recovery of valuable byproducts, such as the REE, from these waste streams could improve the economics of these technologies while diversifying available critical material resources.
 Development of such technologies requires accurate determination of the source REE concentration in order to develop and implement recovery systems.
-However, precise quantitation of REE in complex matrices like brines is a significant challenge for conventional instrumentation such as inductively coupled plasma mass spectrometry (ICP-MS).8
+However, precise quantitation of REE in complex matrices like brines is a significant challenge for conventional instrumentation such as inductively coupled plasma mass spectrometry (ICP-MS) \citep{Agatemor_ACA_2011}.
 
 There exists a dearth of methodologies in the analytical literature for quantitation of REE in brines by ICP-MS.
-Many approaches have been applied for separation and concentration of REE from aqueous media including solid-phase extraction (SPE),9-25
-co-precipitation (co-ppt),26-28
-and liquid-liquid extraction (LLE).29-32
+Many approaches have been applied for separation and concentration of REE from aqueous media including solid-phase extraction (SPE)
+\citep{Benkhedda_JAAS_2001, Fu_Tal_2007, Haley_MC_2003, Halicz_JAAS_1996, Hirata_Tal_2002, Kajiya_SAB_2004, Katarina_Tal_2009, Kim_AG_2010, Kuhn_FJAC_2000, Kumar_Desal_2011, Moller_SAB_1992, Stetzenbach_GW_1994, Vicente_SAB_1998, Wen_Analyst_1999, Willie_SAB_2001, Zhang_AC_1998, Zhu_Tal_2009},
+co-precipitation (co-ppt) \citep{Shaw_AC_2003, Shannon_REEinGWFS, Raso_Tal_2013},
+and liquid-liquid extraction (LLE) \citep{Shabani_AC_1990, Lawrence_GGR_2007, Kimura_BCSJ_1960, Kimura_BCSJ_1961}.
 However, nearly all studies in the analytical chemistry literature have focused on fresh water or seawater matrices, neglecting hypersaline waters (i.e. more concentrated than $\sim0.7$ M NaCl or seawater).
-Despite this deficiency, approximately 14\% of published measurements of REE in groundwater constitute brine samples (greater than 1 eq/kg ionic strength),33
-with these analyses utilizing methodologies not explicitly validated for extreme salinity.
+Despite this deficiency, approximately 14\% of published measurements of REE in groundwater constitute brine samples (greater than 1 eq/kg ionic strength) \citep{Noack_EST_2014}, with these analyses utilizing methodologies not explicitly validated for extreme salinity.
 
 Commonly applied separation techniques such as SPE and co-ppt may lack the robustness necessary to analyze REE in hypersaline brines.
 For example, high dissolved organic carbon may lead to fouling of column-based SPE while high dissolved metal loads may lead to saturation of the surface sites responsible for REE binding.
-Oliveira et al.34
-ascribed diminished Zn recovery in 166\textperthousand\ salinity produced water to competitive sorption of matrix cations on their iminodiacetate resin.
-Similarly, excessive cations in hypersaline solutions may screen the REE from sorption sites during co-ppt, a phenomenon noted by Nelson et al.35
-for Ra determination in produced waters from the Marcellus Shale by both \ce{BaSO4} and \ce{MnO2} co-ppt.
-Moreover, at the elevated pH necessary for SPE and co-ppt techniques, the formation of energetically favorable, neutral- or negatively-charged aqueous complexes of the REE (with both organic and inorganic ligands) can further limit REE-particle partitioning.36 
+Oliveira et al. \citep{Oliveira_JAAS_2011} ascribed diminished Zn recovery in 166\textperthousand\ salinity produced water to competitive sorption of matrix cations on their iminodiacetate resin.
+Similarly, excessive cations in hypersaline solutions may screen the REE from sorption sites during co-ppt, a phenomenon noted by Nelson et al. \citep{Nelson_ESTL_2014} for Ra determination in produced waters from the Marcellus Shale by both \ce{BaSO4} and \ce{MnO2} co-ppt.
+Moreover, at the elevated pH necessary for SPE and co-ppt techniques, the formation of energetically favorable, neutral- or negatively-charged aqueous complexes of the REE (with both organic and inorganic ligands) can further limit REE-particle partitioning \citep{Erel_GCA_1993}. 
 
-Liquid-liquid extractions are potentially robust to all of these conditions and represent an attractive alternative for REE separation from hypersaline solutions.37
-Since LLE of REE from highly acidic solutions has been thoroughly studied for separation of lanthanides and actinides during nuclear fuel reprocessing \citep[e.g. refs.][]{}38, 39,
-elevated pH is not required of LLE techniques.
+Liquid-liquid extractions are potentially robust to all of these conditions and represent an attractive alternative for REE separation from hypersaline solutions \citep{Nash_SXIX_1993}.
+Since LLE of REE from highly acidic solutions has been thoroughly studied for separation of lanthanides and actinides during nuclear fuel reprocessing \citep[e.g. refs.][]{Weaver_ORNL_1964, Nilsson_SXIX_2007} elevated pH is not required of LLE techniques.
 Moreover, electrolyte theory dictates that increased sample salinity should enhance chemical partitioning (through salting out of neutral/micellar REE-organic ligand complexes from the aqueous feed to the organic solvent) and physical phase separation (by collapsing the electric double layer of the organic droplets, hastening coalescence).
 A primary obstacle in extraction of hydrophilic metals to a hydrophobic, organic phase is the dehydration of the metal cations in the aqueous phase.
-However, increasing salt concentrations decrease the effective concentration of water in the solution available for hydration of the target metal cations (REE), improving the energetics of the extraction.37
+However, increasing salt concentrations decrease the effective concentration of water in the solution available for hydration of the target metal cations (REE), improving the energetics of the extraction \citep{Nash_SXIX_1993}.
 
 In this work, efficiency of REE separation and concentration from synthetic brines using a LLE method for quantitative analysis was studied.
-The LLE method was adapted, modified, and optimized from previously published studies.29, 30
+The LLE method was adapted, modified, and optimized from previously published studies \citep{Shabani_AC_1990, Lawrence_GGR_2007}.
 For the LLE, a common ligand used for REE complexation and extraction, bis(2-ethylhexyl) phosphate (HDEHP), was studied in a heptane diluent.
 The objectives of this work were to: (1) evaluate the feasibility of REE recovery from small volumes of hypersaline solutions by LLE, (2) optimize the LLE methodology for high salinity brines, and (3) study the influence of brine composition on REE recovery.
 
 \section{Modified liquid-liquid extraction procedure}
 
-The modified LLE method adheres to many of the physical steps of the methods originally developed by Shabani et al.29 and Lawrence and Kamber30, but following optimization, differs in the operating conditions.
+The modified LLE method adheres to many of the physical steps of the methods originally developed by Shabani et al. 
+\citep{Shabani_AC_1990} and Lawrence and Kamber \citep{Lawrence_GGR_2007}, but following optimization, differs in the operating conditions.
 A schematic flowsheet of the process is shown in Figure~\ref{fig:flowsheet}.
 The process involved sample preparation, followed by three cycles of extraction, whereby the REE were complexed by the HDEHP ligand and brought into the organic phase, leaving an REE-free, waste brine.
 Matrix elements were rinsed from the organic phase with dilute acid, and, finally, the REE were recovered by four cycles of elution with strong acid.
@@ -92,7 +90,7 @@ This mixture was emulsified and separated by the same methods as the forward ext
 Once separated, the dense aqueous phase was removed via pipette and discarded.
 
 A concentrated acid solution was used to dissociate the REE-HDEHP complexes and return the REE to an aqueous phase (termed back extraction).
-To decrease the REE-HDEHP complexation strength and encourage complete recovery,29
+To decrease the REE-HDEHP complexation strength and encourage complete recovery \citep{Shabani_AC_1990},
 1 mL of 1-octanol was added to the organic phase.
 Back extraction was achieved with four, sequential steps of stripping with 1 mL of 6.0 N HCl (collecting the eluted REE in a total of 4 mL acid).
 As with the forward extraction, the sample was emulsified and mixed end over end for 10 minutes and then separated via centrifugation at 6,000$\times$g for 10 minutes.
@@ -128,10 +126,13 @@ Note that the y-axis is a logarithmic scale. Blank experiment represents pH adju
 \end{center}
 \end{sidewaysfigure}
 
-The methodology of Jenner et al.40 as modified by McGinnis et al.41 was employed to correct for matrix effects, isobaric interferences, and instrument drift during ICP-MS analysis.
-Details of this methodology are provided in the SI3. ``Internal-external standardization for analytical corrections''.
-Typical analytical uncertainty was between 3 and 5\%.
-Because of high backgrounds of Gd in our laboratory and high Ba in the experiments, oxide corrections for \ce{^{137}Ba^{16}O+} interference on \ce{^{151}Eu+} and \ce{^{157}Gd^{16}O+} on \ce{^{173}Yb+} were applied as in Aries et al.42 after ICP-MS analysis.
+The methodology of Jenner et al. \citep{Jenner_CG_1990} as modified by McGinnis et al. \citep{McGinnis_GN_1997} was employed to correct for matrix effects, isobaric interferences, and instrument drift during ICP-MS analysis.
+For each sample a 2 mL aliquot was spiked with 2 mL of a mixed element standard (5\% \ce{HNO3} background) while a separate 2 mL aliquot was diluted with 2 mL of blank 5\% \ce{HNO3}.
+These solutions were analyzed sequentially to examine sample-specific matrix effects and were followed by a 5\% \ce{HNO3} flush.
+At the beginning of each analysis run and after every third sample, two separate standard solutions and an analytical blank were analyzed to monitor instrument drift and isobaric, polyatomic interferences (e.g. \ce{^{135}Ba^{16}O+} on \ce{^{151}Eu+} and light REE-oxides on heavy REE).
+Eight, serially-diluted, multi-element standard solutions ranging in concentration from 50 ppt to 100 ppb were analyzed at the beginning and end of each run to confirm the linearity assumed by the internal/external calibration.
+ypical analytical uncertainty was between 3 and 5\%.
+Because of high backgrounds of Gd in our laboratory and high Ba in the experiments, oxide corrections for \ce{^{137}Ba^{16}O+} interference on \ce{^{151}Eu+} and \ce{^{157}Gd^{16}O+} on \ce{^{173}Yb+} were applied as in Aries et al. \citep{Aries_GN_2000} after ICP-MS analysis.
 
 \section{Materials and methods}\label{sec:MnM}
 
@@ -200,10 +201,10 @@ For elements where multiple mass-to-charge ratios were monitored, \ce{^{148}Sm},
 
 \subsection{Recovery analysis by surrogate recovery}
 
-In the absence of a high-salinity, certified reference material for REE, the IUPAC recommended methodology of surrogate recovery43 was used to study the recovery of REE by this LLE method.
+In the absence of a high-salinity, certified reference material for REE, the IUPAC recommended methodology of surrogate recovery \citep{IUPAC} was used to study the recovery of REE by this LLE method.
 Synthetic brine samples were either left blank or spiked with constant amounts of REE.
 The difference in results between these samples yielded the mass of the spiked analytes recovered by the LLE method.
-Additionally, indium was included in the spike solution as it is commonly employed as an internal standard for REE separation to monitor recovery.29, 44
+Additionally, indium was included in the spike solution as it is commonly employed as an internal standard for REE separation to monitor recovery \citep{Shabani_AC_1990,Zawisza_JAAS_2011}.
 Data below the instrument detection limit (DL) were assigned a value of $0.5\times$DL for computation; this occurred for roughly 41\% of all the REE in the unspiked samples and 4\% in the spiked samples.
 
 \subsection{Preparation of synthetic brines}
@@ -212,17 +213,17 @@ In addition to optimization of operating parameters, the methodology must be val
 The complexity of the brine is a function of background salinity and interfering compounds (both inorganic and organic).
 This was investigated in two stages.
 First, simple solutions (1 m and 5 m NaCl) were used to evaluate feasibility.
-Second, compositional complexity was explored via a uniform shell, or Doehlert, experimental design,45 varying NaCl, Fe, and dissolved organic carbon (DOC) concentrations.
+Second, compositional complexity was explored via a uniform shell, or Doehlert, experimental design \citep{Doehlert}, varying NaCl, Fe, and dissolved organic carbon (DOC) concentrations.
 
-The concentrations of background salinity and interfering compounds were chosen to match reported value ranges found in studies of produced waters from unconventional gas development in the Marcellus Shale,46-50
-however the range of compositions studied is similar to other deep, basinal brines.51
-Dissolved organic carbon was modeled with pentanoic (or valeric) acid, a common component of deep, saline brines,51
+The concentrations of background salinity and interfering compounds were chosen to match reported value ranges found in studies of produced waters from unconventional gas development in the Marcellus Shale \citep{Haluszczak_AG_2013, Barbot_EST_2013, Gregory_Elements_2011, Arvind_EST_2013, Vidic_Sci_2013},
+however the range of compositions studied is similar to other deep, basinal brines \citep{Kharaka_REG_2000}.
+Dissolved organic carbon was modeled with pentanoic (or valeric) acid, a common component of deep, saline brines \citep{Kharaka_REG_2000},
 with representative metal-complexing functionality.
-Additionally, organic acids have been shown to be a significant component of DOC in produced waters from the Marcellus Shale.52
+Additionally, organic acids have been shown to be a significant component of DOC in produced waters from the Marcellus Shale \citep{Wolford_PSU_2011}.
 The parameters of interest --- concentrations of NaCl, Fe, and DOC --- were scaled linearly.
 Experimental conditions for variability in salinity, Fe concentration, and DOC concentration are given in Table~\ref{tab:Doehlert}.
-For all experiments the concentration of each REE (along with indium) was set at 500 ppt (parts per trillion), a value that falls between the 45th percentile (for Tm) and the 1st percentile (for La) of natural REE distributions in groundwater.5
-Total dissolved Ba was held constant at 2,000 ppm, roughly the average concentration observed by Barbot, et al.6 for Marcellus Shale produced waters.
+For all experiments the concentration of each REE (along with indium) was set at 500 ppt (parts per trillion), a value that falls between the 45th percentile (for Tm) and the 1st percentile (for La) of natural REE distributions in groundwater \citep{Noack_EST_2014}.
+Total dissolved Ba was held constant at 2,000 ppm, roughly the average concentration observed by Barbot, et al. \citep{Barbot_EST_2013} for Marcellus Shale produced waters.
 Results of these experiments were analyzed by multiple linear regression (MLR) to determine which parameters of the synthetic brine influenced the recovery most strongly.
 
 \begin{table}[htdp]
@@ -253,9 +254,9 @@ Exp. & [NaCl] (m) & [Fe] (ppm) & [DOC] (ppm-C) \\ \hline
 
 \subsection{Optimization of liquid-liquid operation parameters}
 
-Preliminary experiments utilizing LLE conditions described by Shabani et al.29 and Lawrence and Kamber30 were unable to achieve high or consistent recovery of the REE (Figure~\ref{fig:reproduction}A,B).
+Preliminary experiments utilizing LLE conditions described by Shabani et al. \citep{Shabani_AC_1990} and Lawrence and Kamber \citep{Lawrence_GGR_2007} were unable to achieve high or consistent recovery of the REE (Figure~\ref{fig:reproduction}A,B).
 These experiments showed recovery $<80\%$ for all elements in all replicates, with significant variability, as well as preferential recovery of the MREE over the L- and HREE.
-It should be noted that both Shabani et al.29 and Lawrence and Kamber30 employed a mixture of mono- and di-ester phosphonic acids as the chelating ligand.
+It should be noted that both Shabani et al. \citep{Shabani_AC_1990} and Lawrence and Kamber \citep{Lawrence_GGR_2007} employed a mixture of mono- and di-ester phosphonic acids as the chelating ligand.
 This ligand combination was also explored, however preliminary experiments provided poor results compared to the pure diester (HDEHP) under the same conditions and was not studied further.
 
 \begin{figure}[htbp]
@@ -268,10 +269,10 @@ Each experiment was performed in triplicate (separate colors/shapes of plot) and
 \end{center}
 \end{figure}
 
-In order to optimize method performance, a linear model (Equation~\ref{eq:kimura_MLR}) was fit by ordinary least-squares in \texttt{R},53
-using the datasets of Kimura31, 32.
+In order to optimize method performance, a linear model (Equation~\ref{eq:kimura_MLR}) was fit by ordinary least-squares in \texttt{R} \citep{R},
+using the datasets of Kimura \citep{Kimura_BCSJ_1960, Kimura_BCSJ_1961}.
 The relationship between the response (organic-aqueous distribution coefficient, $K_d$) and each of the predictors (solution acidity $[ACY]$, and ligand concentration $[L]$) is shown to be independently log-log linear.
-Therefore the variables in this model correspond to log values. Data for fitting of this model were extracted from Figure 1 of Kimura31 for $K_d$ vs. $[ACY]$ at constant $[L]$ and from Figure 1 of Kimura32 for $K_d$ vs. $[L]$ at constant $[ACY]$. This estimation of parameter values reflects the dependence of $\log K_d$ on $\log[ACY]$ ($\beta_{ACY}$) and on $\log[L]$ ($\beta_L$) as well as a constant intercept ($\beta_0$).
+Therefore the variables in this model correspond to log values. Data for fitting of this model were extracted from Figure 1 of Kimura \citep{Kimura_BCSJ_1960} for $K_d$ vs. $[ACY]$ at constant $[L]$ and from Figure 1 of Kimura \citep{Kimura_BCSJ_1961} for $K_d$ vs. $[L]$ at constant $[ACY]$. This estimation of parameter values reflects the dependence of $\log K_d$ on $\log[ACY]$ ($\beta_{ACY}$) and on $\log[L]$ ($\beta_L$) as well as a constant intercept ($\beta_0$).
 
 \begin{align}\label{eq:kimura_MLR}
 \log K_d = \beta_{ACY} \cdot \log[ACY] + \beta_L \cdot \log[L] + \beta_0
@@ -308,10 +309,10 @@ Figure~\ref{fig:MLR-results} shows that the rinse step (labeled ``R'' in subfigu
 \begin{center}
 \includegraphics[width=\textwidth]{Ch4_figures/Kd-mod-plot.png}
 \caption{Summary of model-based optimization of LLE operating conditions.
-(A-D) Organic-aqueous distribution coefficient (Kd; Equation 1) contours as a function of acidity and HDEHP volume fraction for La, Tm, Na, and Ba calculated with data from Kimura31 and Kimura32.
-LLE operating conditions for forward extractions (F), matrix rinse (R), and back extractions (B) suggested by Shabani et al.29 are noted.
-(E) Equilibrium partitioning for triplicate forward and backward extractions as a function of organic/aqueous distribution coefficient (Kd).
-Partitioning calculated by Equation 2 with Vaq/Vorg = 10 for forward extraction and 0.25 for backward extraction.}
+(A-D) Organic-aqueous distribution coefficient ($\log K_d$; Equation~\ref{eq:kimura_MLR}) contours as a function of acidity and HDEHP volume fraction for La, Tm, Na, and Ba calculated with data from Kimura \citep{Kimura_BCSJ_1960, Kimura_BCSJ_1961}.
+LLE operating conditions for forward extractions (F), matrix rinse (R), and back extractions (B) suggested by Shabani et al. \citep{Shabani_AC_1990} are noted.
+(E) Equilibrium partitioning for triplicate forward and backward extractions as a function of organic/aqueous distribution coefficient ($K_d$).
+Partitioning calculated by Equation~\ref{eq:recovery} with $V_{aq}/V_{org} = 10$ for forward extraction and 0.25 for backward extraction.}
 \label{fig:MLR-results}
 \end{center}
 \end{sidewaysfigure}
@@ -360,10 +361,10 @@ Data for La in the 5 m NaCl experiment and for Gd in both experiments are exclud
 \end{figure}
 
 Figure~\ref{fig:Doehlert-summary} summarizes the Doehlert design matrix experimental results, while experiment-ordered results, with replicates, are presented in Figure~\ref{fig:Doehlert-all}.
-Data for Sc, La, and Gd are not included because these analytes were either not recovered (Sc, which is ``irreversibly bound'' in the organic phase31)
+Data for Sc, La, and Gd are not included because these analytes were either not recovered (Sc, which is ``irreversibly bound'' in the organic phase \citep{Kimura_BCSJ_1960})
 or contaminated by a high background (La and Gd; background $\geq 250$ ppt in all experiments).
 Subsequent discussion excludes these elements.
-Across all analytes, median recovery, $\widehat{Q}(0.50)=106\%$, was biased high (two-sided Wilcoxon Signed Rank test; H$_1$: $Q(0.5)\neq100\%$, $P < 10^{-6}$). However, these results are well within the recommended range of mean recovery for 1 ppb analytes (40 -- 120\% recommended).55
+Across all analytes, median recovery, $\widehat{Q}(0.50)=106\%$, was biased high (two-sided Wilcoxon Signed Rank test; H$_1$: $Q(0.5)\neq100\%$, $P < 10^{-6}$). However, these results are well within the recommended range of mean recovery for 1 ppb analytes (40 -- 120\% recommended) \citep{Taverniers_TrAC_2004}.
 The absolute range of recoveries observed was 83-158\% while the reference range for recoveries (i.e the values between which 95\% of observations fell) was 92\% -- 122\%.
 Experiments were generally reproducible (Figure~\ref{fig:Doehlert-all}), with element-specific, replicate standard deviations ranging from 0.05\% (Nd, experiment 4) to 21\% (In, experiment 1).
 Finally, indium recovery was indistinguishable from any analyte (Wilcoxon, Rank-Sum test; $P>0.05$), in contrast to recovery from the simple NaCl solutions (Figure~\ref{fig:NaCl-only}).
@@ -372,7 +373,7 @@ Since these data are not sufficient to determine the mechanism by which this dis
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{Ch4_figures/Doehlert-results.pdf}
-\caption{Distributions of elemental recovery in Doehlert matrix experiments by LLE methodology (see Figure~\ref{fig:Doehlert-all} for experiment-wise results). Distributions are depicted as standard boxplots,58
+\caption{Distributions of elemental recovery in Doehlert matrix experiments by LLE methodology (see Figure~\ref{fig:Doehlert-all} for experiment-wise results). Distributions are depicted as standard box plots \citep{boxplots},
 where the thick, black line depicts the median;
 the boxed range represents the 25th to 75th percentile, or inter-quartile range (IQR);
 the thin whiskers denote all measurements within 1.5 times the IQR above or below;
@@ -410,10 +411,11 @@ $\Delta = N(\mu, 3\%) - N(\mu, 3\%) = N(0,\sqrt{3^2 + 3^2 }\%$).}
 \end{center}
 \end{figure}
 
-The lack of fractionation among REE in the more complex brines (i.e. with salinity, Fe, and DOC) differs from results obtained in experiments with simple NaCl solutions, where Yb and Lu recoveries were significantly lower at 5 m NaCl.
+
+The lack of fractionation among REE in the more complex brines (i.e. with salinity, Fe, and DOC) differs from results obtained in experiments with simple NaCl solutions, where Yb and Lu recoveries were significantly lower at 5 m NaCl.
 Step-wise regression analysis of element recovery (response) against solution composition (predictors) revealed no combination of linear- or interaction-terms among the study variables that substantially influenced recovery.
 If the solution composition did have any impact on recovery within the range of parameters explored in the Doehlert design, it was indistinguishable from replicate variability.
 These results give confidence to the application of the LLE methodology for natural samples with chemical characteristics within the bounds of the variables studied here, though accurate characterization of the REE concentration of unknown samples may require multiple replicates.
 
-%\bibliographystyle{unsrtnat}
-%\bibliography{Ch4_bib}
+\bibliographystyle{unsrtnat}
+\bibliography{Ch4_bib}

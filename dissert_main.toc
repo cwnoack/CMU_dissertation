@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Tables}{v}{Doc-Start}
-\contentsline {chapter}{List of Figures}{vi}{Doc-Start}
+\contentsline {chapter}{List of Tables}{vi}{Doc-Start}
+\contentsline {chapter}{List of Figures}{xi}{Doc-Start}
 \gdef \the@ipfilectr {@-1}
 \contentsline {chapter}{\numberline {1}Introduction, problem identification, and research goals}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}
@@ -30,10 +30,10 @@
 \contentsline {section}{\numberline {3.2}Modified liquid-liquid extraction procedure}{41}{section.3.2}
 \contentsline {section}{\numberline {3.3}Materials and methods}{46}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Chemicals and equipment}{46}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Recovery analysis by surrogate recovery}{46}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Preparation of synthetic brines}{48}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.2}Recovery analysis by surrogate recovery}{47}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Preparation of synthetic brines}{47}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Optimization of liquid-liquid operation parameters}{49}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Results and discussion}{51}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Multiple linear-regression of organic-aqueous distribution coefficients}{51}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.4}Results and discussion}{52}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Multiple linear-regression of organic-aqueous distribution coefficients}{52}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Interferences of synthetic brine constituents}{54}{subsection.3.4.2}
 \gdef \the@ipfilectr {}
