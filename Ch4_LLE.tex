@@ -1,4 +1,4 @@
-\chapter{Determination of Rare Earth Elements in Hypersaline Solutions Using Low-Volume, Liquid-Liquid Extraction}
+\chapter{Determination of Rare Earth Elements in Hypersaline Solutions Using Low-Volume, Liquid-Liquid Extraction}\label{chap:LLE}
 \chaptermark{LLE method for brines}
 
 This chapter is adapted from a publication by the same name, co-authored by David A. Dzombak and Athanasios K. Karamalidis.
@@ -106,32 +106,12 @@ Thus, in order to determine Eu accurately in these synthetic brines an additiona
 Efficiency of Ba removal after \ce{H2SO4} addition is compared in Figure~\ref{fig:Ba-removal}B and \ref{fig:Ba-removal}D.
 It should be noted that this step was unnecessary for samples without Ba.
 
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{Ch4_figures/Ba-removal.pdf}
-\caption{Efficiency of Ba removal by LLE method (A, C) and ICP-MS octopole collision cell (B, D).
-Results are for samples without (A, C) and with (B, D) \ce{H2SO4} addition to precipitate barite.
-In (B) and (D), \ce{^{135}Ba^{16}O+} rate is inferred from 23 replicate analyses of a 200 ppb Ba standard after blank subtraction.
-Interfered samples are those where accurate Eu determination could not be made due to excessive \ce{^{135}Ba^{16}O+} interference. In (D) the interfered samples were all unspiked experiments.}\label{fig:Ba-removal}
-\label{default}
-\end{center}
-\end{figure}
-
-\begin{sidewaysfigure}[htbp]
-\begin{center}
-\includegraphics[width=0.9\textwidth]{Ch4_figures/REE-bkgd.pdf}
-\caption{Average (from $n \geq 2$ replicates, except for Blank and experiments 6, 13) background concentrations of target analytes in samples without \ce{BaSO4} precipitation.
-Dashed line at 500 ppt indicates the input concentration for all spiked samples.
-Note that the y-axis is a logarithmic scale. Blank experiment represents pH adjusted ASTM Type I water.}\label{fig:REE-bkgd}
-\end{center}
-\end{sidewaysfigure}
-
 The methodology of Jenner et al. \citep{Jenner_CG_1990} as modified by McGinnis et al. \citep{McGinnis_GN_1997} was employed to correct for matrix effects, isobaric interferences, and instrument drift during ICP-MS analysis.
 For each sample a 2 mL aliquot was spiked with 2 mL of a mixed element standard (5\% \ce{HNO3} background) while a separate 2 mL aliquot was diluted with 2 mL of blank 5\% \ce{HNO3}.
 These solutions were analyzed sequentially to examine sample-specific matrix effects and were followed by a 5\% \ce{HNO3} flush.
 At the beginning of each analysis run and after every third sample, two separate standard solutions and an analytical blank were analyzed to monitor instrument drift and isobaric, polyatomic interferences (e.g. \ce{^{135}Ba^{16}O+} on \ce{^{151}Eu+} and light REE-oxides on heavy REE).
 Eight, serially-diluted, multi-element standard solutions ranging in concentration from 50 ppt to 100 ppb were analyzed at the beginning and end of each run to confirm the linearity assumed by the internal/external calibration.
-ypical analytical uncertainty was between 3 and 5\%.
+Typical analytical uncertainty was between 3 and 5\%.
 Because of high backgrounds of Gd in our laboratory and high Ba in the experiments, oxide corrections for \ce{^{137}Ba^{16}O+} interference on \ce{^{151}Eu+} and \ce{^{157}Gd^{16}O+} on \ce{^{173}Yb+} were applied as in Aries et al. \citep{Aries_GN_2000} after ICP-MS analysis.
 
 \section{Materials and methods}\label{sec:MnM}
@@ -328,7 +308,7 @@ This can be achieved in a series of forward extractions.
 	This can be achieved in a series of backward extractions.
 \end{enumerate}
 
-Linear regression predicts a $\log_{10} K_d$ of 1.15 for La and 1.62 for Tm when using the conditions recommended by Shabani, et al.7.
+Linear regression predicts a $\log_{10} K_d$ of 1.15 for La and 1.62 for Tm when using the conditions recommended by Shabani et al. \citep{Shabani_AC_1990}.
 At these values, a mass balance model would predict 93\% partitioning in three forward extractions for La and exactly 99\% for Tm.
 Similarly, in the recommended matrix rinse (0.25 N HCl) the model predicts $\log_{10} K_d$ of $-1.48$ for La and 0.21 for Tm, which correspond to 9\% retention of La in the organic phase and 83\% retention of Tm.
 While this simplified analysis suggests that triplicate back extraction steps should achieve quantitative recovery of all REE ($\log_{10} K_d$ of $-2.18$ and $-5.57$ for La and Tm respectively), preliminary experiments (Figure~\ref{fig:reproduction}C and \ref{fig:reproduction}D) showed that the HREE were incompletely recovered. From these results an additional elution step was added to the procedure. 
@@ -386,18 +366,8 @@ Data from La and Gd are not presented because the background concentration was d
 \end{center}
 \end{figure}
 
-\begin{sidewaysfigure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{Ch4_figures/Exp-wise-LLE-recovery.pdf}
-\caption{Elemental recovery in Doehlert matrix samples by LLE methodology (see Table~\ref{tab:Doehlert} for experimental conditions).
-Recovery values for Eu were determined after dosing the LLE eluent with \ce{H2SO4} to precipitate barite;
-all other recoveries were determined without barite precipitation.
-Elements where the background concentration was determined to 250 ppt or greater (see Figure~\ref{fig:REE-bkgd}) were excluded (i.e. La and Gd in all experiments and Y in experiment 11).}
-\label{fig:Doehlert-all}
-\end{center}
-\end{sidewaysfigure}
 
-The data in Figures~\ref{fig:Doehlert-summary} and \ref{fig:Doehlert-all} indicate no clear fractionation (or mass bias) of the method across the suite of REE.
+The data in Figure~\ref{fig:Doehlert-summary} and Figure~\ref{fig:Doehlert-all} indicate no clear fractionation (or mass bias) of the method across the suite of REE.
 This result is confirmed by the Kruskal-Wallis test, which found no significant differences between any two element recoveries (H$_0$: No differences in element medians, $P > 0.1$).
 Pairwise element testing (paired sample Wilcoxon Rank-Sum test, corrected for multiple comparisons) found statistically significant differences ($P < 0.05$) between 16 element pairs.
 However, the differences were essentially indistinguishable from additive 3\% analytical errors (Figure~\ref{fig:element-diff-hist}).
@@ -405,7 +375,7 @@ However, the differences were essentially indistinguishable from additive 3\% an
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.75\textwidth]{Ch4_figures/element-diff-hist.pdf}
-\caption{Comparison of pair-wise, inter-element differences in median recovery ($\Delta$, estimated from the paired-sample Wilcox signed rank test) to the expected (normal) distribution based on the difference between two random variates with equal means and 3\% analytical uncertainty, i.e.
+\caption{Comparison of pair-wise, inter-element differences in median recovery ($\Delta$, estimated from the paired-sample Wilcoxon Signed Rank test) to the expected (normal) distribution based on the difference between two random variates with equal means and 3\% analytical uncertainty, i.e.
 $\Delta = N(\mu, 3\%) - N(\mu, 3\%) = N(0,\sqrt{3^2 + 3^2 }\%$).}
 \label{fig:element-diff-hist}
 \end{center}
@@ -416,6 +386,17 @@ The lack of fractionation among REE in the more complex brines (i.e. with salini
 Step-wise regression analysis of element recovery (response) against solution composition (predictors) revealed no combination of linear- or interaction-terms among the study variables that substantially influenced recovery.
 If the solution composition did have any impact on recovery within the range of parameters explored in the Doehlert design, it was indistinguishable from replicate variability.
 These results give confidence to the application of the LLE methodology for natural samples with chemical characteristics within the bounds of the variables studied here, though accurate characterization of the REE concentration of unknown samples may require multiple replicates.
+
+\subsection{Advice regarding natural samples}
+
+Based on the results presented here, the modified LLE technique represents an attractive option for determination of REE in natural, hypersaline, and chemically complex brines.
+However, it is critical to have accurate characterization of the samples of interest, as well as the oxide formation rates for the ICP-MS.
+For samples with low Ba (i.e. a molar [Ba]:[Eu] $<10^5$ in raw samples), the addition of \ce{H2SO4} for barite precipitation is likely unnecessary if the available analytical instrumentation can maintain \ce{BaO+} interferences on the order of 0.1\% of analyte signal.
+Samples with salinities and/or compositions outside of the range validated here may need to be tested with synthetic brines by the user.
+
+While this study has explored the effects of DOC on LLE performance by way of a model compound, the character of DOC in the samples of interest should be considered more explicitly.
+The effects of mixed organic components were not studied here.
+Potent REE chelators can be found in other water sources, such as municipal wastewater discharges \citep{Bau_EPSL_1996,Kulaksiz_EPSL_2013}, and may have uncertain effects on the efficiency of REE recovery by this and other methods.
 
 \bibliographystyle{unsrtnat}
 \bibliography{Ch4_bib}

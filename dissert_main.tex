@@ -1,15 +1,17 @@
 \documentclass[11pt,letterpaper,twoside,openany]{book}
 \usepackage[parfill]{parskip}
 \usepackage{latexsym}
-\usepackage{amsfonts,amsmath,amssymb,siunitx}
+\usepackage{amsfonts,amsmath,amssymb,siunitx,xcolor}
 \usepackage[version=3]{mhchem}
 \usepackage{url}
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp}
 \usepackage{longtable}
-\usepackage{multirow,booktabs}
+\usepackage{multirow,booktabs,appendix}
 \usepackage{graphicx, rotating}
 \usepackage[bf, small, centerlast]{caption}
+\usepackage{framed}
+\definecolor{shadecolor}{rgb}{0.97,0.97,0.97}
 \setlength{\captionmargin}{8pt}
 \setlength{\belowcaptionskip}{0pt}
 
@@ -22,6 +24,12 @@
 
 
 \renewcommand{\bibname}{References}
+\newenvironment{codechunk}
+	{\begin{snugshade}
+	 \begin{verbatim}}
+	{\end{verbatim}
+	 \end{snugshade}}
+
 
 \begin{document}
 
@@ -36,7 +44,7 @@
 This page intentionally left blank.
 \end{center}
 
-\clearpage
+\clearpage`
 
 %Title page
 \input{title_page}
@@ -56,5 +64,13 @@ This page intentionally left blank.
 \include{Ch3_REE-in-water}
 
 \include{Ch4_LLE}
+
+\begin{appendix}
+
+\include{Ch3_appendix}
+
+\include{Ch4_appendix}
+
+\end{appendix}
 
 \end{document}

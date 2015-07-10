@@ -1,0 +1,353 @@
+\chapter{Supporting information for Chapter~\ref{chap:REE-review}}
+\chaptermark{SI for REE in natural waters}
+\section{Weighted Kaplan-Meier estimation of survival function for analyzing left-censored data}
+\sectionmark{Analysis of left-censored data}
+
+The weighted Kaplan-Meier (KM) estimator (\(\widehat{S}(x_i)\)) is expressed as:
+
+\begin{align*}
+\widehat{S}(x_i) = \prod_{x \geq x_i}\left(1 - \frac{d_i^w}{Y_i^w}\right)
+\end{align*}
+
+where, for application to aqueous chemistry data, \(\widehat{S}(x_i)\) is estimate of the probability of any measured concentration, \(x\), from the population being \emph{less} than \(x_i\).
+It is calculated using the weighted count of uncensored observations at \(x_i\) (\(d_i\)) and the weighted count of all (censored or uncensored) observed concentrations less than \(x_i\) (\(Y_i^w\)).
+The weighting of each data point is calculated here as the inverse of the number of samples from the data source, or \(w_i = n_i^{-1}\).
+This curve can be used to estimate the quantiles of the data distribution as well as make estimates of the mean and variance of the population.
+The computational methods here are adapted from Xie and Liu \citep{Xie_SiM_2005} and Singh et al. \citep{Singh_JAWMA_2013}.
+
+To demonstrate these calculations, random data, drawn from log-normal distributions, will be used, followed by analysis of the groundwater REE dataset.
+This analysis makes use of functions from the \texttt{plyr} (V 1.8.1), \texttt{dplyr} (V 0.3.0.2), and \texttt{tidyr} (V 0.1) packages which must be installed to run this analysis.
+Aside from the pipe operator (\texttt{\%\textgreater{}\%}, loaded via the \texttt{dplyr} namespace, but part of the \texttt{magrittr} package), functions from these namespace are denoted as \texttt{package\_name::function\_name}, e.g. \texttt{dplyr::mutate}. 
+
+Code, written in R, is shown with a grey-shaded background:
+
+\begin{snugshade}
+\begin{verbatim}
+# This is an R comment
+X <- 10
+Y <- rnorm(1000)
+\end{verbatim}
+\end{snugshade}
+
+Conversely, output from R calculations will be shown as:
+
+\begin{verbatim}
+##
+## These are results
+##
+\end{verbatim}
+
+\subsection{Generation of random data}
+% Width of page (do not let code extend beyond)
+% --------------------------------------------------------------------------------
+\begin{snugshade}
+\begin{verbatim}
+## If these packages are not installed,
+## un-comment and run these lines
+# install.packages('plyr')
+# install.packages('dplyr')
+# install.packages('tidyr')
+library(plyr)
+library(dplyr)
+
+# Data are drawn from three separate log-normal distributions
+# Group means
+means <- c(1,1.5,2.5)
+
+# Samples in each group
+N <- 100
+
+# Generate random data
+set.seed(8675309)
+R <- data.frame(sapply(means, function(mu) rlnorm(N, mu, 1)))
+colnames(R) <- c('Grp1','Grp2','Grp3')
+head(R) # Look at first few values of random data, R
+
+# `mutate` adds censoring and site ID
+R.g <- tidyr::gather(data = R, key = Dataset,
+                     value = Concentration,
+                     contains('Grp')) %>%
+         # Assume that 60% of samples were analyzed by
+         # method with DL = 1 ppb, 40% with DL = 10 ppb
+  dplyr::mutate(DL = sample(c(1, 10),
+                            size = nlevels(Dataset)*N,
+                            replace = T,
+                            prob = c(0.6,0.4)),
+         # Flag censored values and store at detection limit
+         Censored = ifelse(test = Concentration < DL,
+                           yes = 1, no = 0),
+         Concentration = ifelse(Censored == 1,
+                                DL, Concentration),
+         # Randomly assign to sites w/ non-uniform probability
+         Site = sample(LETTERS[1:10],
+                       nlevels(Dataset)*N,
+                       replace = T,
+                       prob = 1:10/sum(1:10))) %>%
+  dplyr::select(Dataset, Concentration, Censored, Site)
+
+# Look at first few rows of fictional, partially censored data.
+dplyr::tbl_df(R.g)
+\end{verbatim}
+\end{snugshade}
+
+\begin{verbatim}
+## Source: local data frame [300 x 4]
+## 
+##    Dataset Concentration Censored Site
+## 1     Grp1        10.000        1    D
+## 2     Grp1        10.000        1    J
+## 3     Grp1        10.000        1    I
+## 4     Grp1        20.685        0    H
+## 5     Grp1         7.889        0    J
+## 6     Grp1        10.000        1    I
+## 7     Grp1         2.794        0    H
+## 8     Grp1        10.000        1    I
+## 9     Grp1         4.817        0    G
+## 10    Grp1        10.000        1    F
+## ..     ...           ...      ...  ...
+\end{verbatim}
+
+\subsection{Functions of the weighted Kaplan-Meier routine}
+
+To utilize the weighted KM, the weights of each observation must be calculated.
+
+\begin{snugshade}
+\begin{verbatim}
+calc_weights <- function(site_vector){
+  counts <- data.frame(Site = site_vector) %>%
+    dplyr::group_by(Site) %>% 
+    dplyr::summarise(weight = 1/n())
+  return(counts)
+}
+
+# Weights of sites are very similar across groups
+# Note that no samples were assigned to "Site" A in Grp3,
+# thus the weight is NA
+plyr::ddply(R.g, .(Dataset), function(df){
+    calc_weights(df$Site)
+  }) %>%
+  tidyr::spread(Dataset, weight)
+\end{verbatim}
+\end{snugshade}
+
+\begin{verbatim}
+##    Site    Grp1    Grp2    Grp3
+## 1     A 0.25000 0.20000      NA
+## 2     B 1.00000 0.20000 1.00000
+## 3     C 0.16667 0.16667 0.20000
+## 4     D 0.14286 0.16667 0.14286
+## 5     E 0.25000 0.14286 0.08333
+## 6     F 0.08333 0.08333 0.08333
+## 7     G 0.12500 0.06667 0.12500
+## 8     H 0.05000 0.10000 0.05263
+## 9     I 0.06667 0.06667 0.05556
+## 10    J 0.04348 0.05263 0.05556
+\end{verbatim}
+
+Next, the function for calculating the survival estimator is built.
+
+\begin{snugshade}
+\begin{verbatim}
+Surv_weighted <- function(censored_data){
+  # Data should have the following form [R data type]:
+  # Column 1 = `Concentration` [double]
+  # Column 2 = `Censored` [bool/int]
+  # Column 3 = `Site` [factor]
+  
+  if(!is.factor(censored_data$Site)){
+    censored_data$Site <- factor(censored_data$Site)
+  }
+  
+  # Get weights
+  site_weights <- calc_weights(censored_data$Site)
+  
+  # Combine weights with original data
+  data_mod <- dplyr::left_join(censored_data,
+                               site_weights,
+                               by = 'Site')
+  
+  # Calculate the `at risk` observations, or
+  # weighted # of observations less than each concentration
+  data_mod <- dplyr::arrange(data_mod,
+                             # Data in descending order
+                             desc(Concentration)) %>%
+    dplyr::mutate(Yw = sum(weight) - cumsum(weight) + weight)
+  
+  # Retain only uncensored (Censored == 0) observations
+  observed <- dplyr::filter(data_mod, Censored == 0) %>%
+    dplyr::select(-Censored)
+  
+  # All observations with identical values are counted
+  obs_weight_tab <- dplyr::group_by(observed, Concentration) %>%
+    dplyr::summarize(dw = sum(weight))
+  
+  # Combine weighted counts with rest of data and calculate S
+  observed <- dplyr::left_join(observed, obs_weight_tab,
+                               by = "Concentration") %>%
+    # "incremental survival", value inside product
+    dplyr::mutate(P = 1 - dw/Yw) %>%
+    # Remove duplicated observations
+    dplyr::filter(!duplicated(Concentration)) %>%
+    dplyr:: mutate(S = cumprod(P),
+                   S = ifelse(S<0,0,S))
+  
+  return(observed)
+}
+\end{verbatim}
+\end{snugshade}
+
+Using the simulated data, these functions can be tested:
+
+\begin{snugshade}
+\begin{verbatim}
+# Calculate weighted KM for each dataset/group
+sim_wKM <- R.g %>% plyr::ddply(.(Dataset), function(df){
+  df <- dplyr::select(df,-Dataset)
+  wKM <- Surv_weighted(df)
+  return(wKM)
+})
+
+# Look at results
+sim_wKM %>% 
+  dplyr::select(Dataset, Concentration, weight, S) %>%
+  dplyr::tbl_df()
+\end{verbatim}
+\end{snugshade}
+
+\begin{verbatim}
+## Source: local data frame [207 x 4]
+## 
+##    Dataset Concentration  weight      S
+## 1     Grp1        20.685 0.05000 0.9950
+## 2     Grp1        20.505 0.16667 0.9783
+## 3     Grp1        19.803 0.08333 0.9700
+## 4     Grp1        19.540 0.04348 0.9657
+## 5     Grp1        14.310 0.06667 0.9590
+## 6     Grp1        13.423 0.06667 0.9523
+## 7     Grp1        13.130 0.04348 0.9480
+## 8     Grp1        11.808 0.08333 0.9396
+## 9     Grp1         9.981 0.25000 0.9038
+## 10    Grp1         9.503 0.06667 0.8942
+## ..     ...           ...     ...    ...
+\end{verbatim}
+
+To estimate the quantiles of a dataset with censoring, \texttt{Surv\_quantile} is defined, which calls \texttt{Surv\_weighted}.
+This function will choose the observation closest to the desired quantile, without exceeding that quantile.
+As in the main text, if the calculated survival quantiles, $S(x)$, for adjacent observations were $S(x_1)=0.94$ and $S(x_2)=0.96$, then $x_1$ would be noted as the 95$^{th}$ percentile.
+If the desired quantile is outside of the range of calculated  (e.g. for $Q(0.05)$ when $\min \widehat{S}(x) > 0.05$), the quantile is estimated parametrically through regression on order statistics (ROS).
+Here the data are assumed to be adequately fit by a log-normal distribution.
+The parameters of this distribution are estimated from quantile-quantile regression.
+
+\begin{snugshade}
+\begin{verbatim}
+Surv_quantile <- function(censored_data,
+                          # Default to median + IQR
+                          percentiles = c(0.25,0.5,0.75),
+                          sig.fig = 3){
+  # Fraction of data below detection
+  cenfrac <- mean(as.logical(censored_data$Censored))
+  
+  # Calculate wKM and select relevant columnes
+  weighted_km <- Surv_weighted(censored_data) %>%
+    dplyr::select(Concentration, S)
+  
+  # Warnings about data
+  if(any(cenfrac > percentiles)){
+    warning(paste('The fraction of censored data is larger ',
+                  'than one or more desired percentiles.\n',
+                  'This may produce unreliable estimates.',
+                  sep = ''))
+  }
+  
+  out_of_range <- c(F,F)
+  
+  if(any(percentiles < min(weighted_km$S))){
+    warning(paste('At least one desired percentile below', 
+                  'minimum calculated from data,', 
+                  'will be estimated from ROS.'), sep = ' ')
+    out_of_range[1] <- T
+  }
+  
+  if(any(percentiles > max(weighted_km$S))){
+    warning(paste('At least one desired percentile above', 
+                  'maximum calculated from data,', 
+                  'will be estimated from ROS.'), sep = ' ')
+    out_of_range[2] <- T
+  }
+  
+  if(any(out_of_range)){
+    ROS_data <- dplyr::filter(weighted_km, !is.na(S)) %>%
+      transmute(y = log(Concentration), x = qnorm(S))
+    ROS <- with(ROS_data,
+                lm(y ~ x)
+                )
+    
+    # Function for returning predictions based on ROS
+    pred_ROS <- function(ROS_obj, percentile){
+      new_dat <- data.frame(x = qnorm(percentile))
+      log_pred <- predict(ROS_obj, newdata = new_dat)
+      return(exp(log_pred))
+  }
+  
+  fl.h <- function(percentile, S){
+    h.temp <- which.min(abs(S - percentile))
+    return(h.temp)
+  }
+  
+  h.low <- sapply(percentiles, function(p){
+      fl.h(p, weighted_km$S)
+    })
+  perc_df <- data.frame(Percentile = percentiles) %>%  
+    dplyr::group_by(Percentile) %>%
+    dplyr::mutate(h.low = fl.h(Percentile, weighted_km$S),
+                  use_ROS = ifelse(
+                    (Percentile < min(weighted_km$S) ||
+                             Percentile > max(weighted_km$S)),
+                     T,F)
+                  ) %>%
+    dplyr::ungroup() %>%
+    dplyr::mutate(Xh = ifelse(use_ROS,
+                              pred_ROS(ROS, Percentile),
+                              weighted_km[h.low,
+                                          'Concentration']),
+                          Xh = signif(Xh, sig.fig)
+
+  return(perc_df)
+}
+\end{verbatim}
+\end{snugshade}
+
+This estimation is demonstrated with the simulated data.
+Note that in this example the rates of censoring are high in the first two groups, which elicits a warning from the \texttt{Surv\_quantile} code.
+However, for clarity here, those warning messages have been suppressed.
+
+\begin{snugshade}
+\begin{verbatim}
+plyr::ddply(R.g, .(Dataset),
+      function(df){ 
+        Surv_quantile(dplyr::select(df,-Dataset),
+                      percentiles = c(0.05,0.25,0.5,0.75))
+                         }) %>%
+  dplyr::select(-h.low)
+\end{verbatim}
+\end{snugshade}
+
+\begin{verbatim}
+##    Dataset Percentile use_ROS     Xh
+## 1     Grp1       0.05    TRUE  0.714
+## 2     Grp1       0.25   FALSE  2.110
+## 3     Grp1       0.50   FALSE  2.900
+## 4     Grp1       0.75   FALSE  4.910
+## 5     Grp2       0.05    TRUE  1.390
+## 6     Grp2       0.25   FALSE  2.790
+## 7     Grp2       0.50   FALSE  6.060
+## 8     Grp2       0.75   FALSE  8.650
+## 9     Grp3       0.05   FALSE  1.900
+## 10    Grp3       0.25   FALSE  7.500
+## 11    Grp3       0.50   FALSE 10.300
+## 12    Grp3       0.75   FALSE 19.400
+\end{verbatim}
+
+
+\bibliographystyle{unsrtnat}
+\bibliography{Ch4_appendix_bib}
