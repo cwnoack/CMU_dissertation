@@ -1,4 +1,4 @@
-\begin{thebibliography}{131}
+\begin{thebibliography}{134}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -306,13 +306,13 @@ Stephanie~S. Willis and Karen~H. Johannesson.
   groundwaters of the {Aquia aquifer, Maryland, USA}.
 \newblock \emph{Chemical Geology}, 285\penalty0 (1–4):\penalty0 32--49, 2011.
 
-\bibitem[Pourret et~al.(2007)Pourret, Davranche, Gruau, and
+\bibitem[Pourret et~al.(2007{\natexlab{a}})Pourret, Davranche, Gruau, and
   Dia]{Pourret_JCIS_2007}
 Olivier Pourret, Mélanie Davranche, Gérard Gruau, and Aline Dia.
 \newblock Competition between humic acid and carbonates for rare earth elements
   complexation.
 \newblock \emph{Journal of Colloid and Interface Science}, 305\penalty0
-  (1):\penalty0 25--31, 2007.
+  (1):\penalty0 25--31, 2007{\natexlab{a}}.
 
 \bibitem[Stolpe et~al.(2013)Stolpe, Guo, and Shiller]{Stolpe_GCA_2013}
 Björn Stolpe, Laodong Guo, and Alan~M. Shiller.
@@ -972,5 +972,28 @@ Katie~L Benko and Jörg~E Drewes.
   distribution, occurrence, and composition.
 \newblock \emph{Environmental Engineering Science}, 25\penalty0 (2):\penalty0
   239--246, 2008.
+
+\bibitem[Marsac et~al.(2011)Marsac, Davranche, Gruau, Bouhnik-Le~Coz, and
+  Dia]{Marsac_GCA_2011}
+Rémi Marsac, Mélanie Davranche, Gérard Gruau, Martine Bouhnik-Le~Coz, and
+  Aline Dia.
+\newblock An improved description of the interactions between rare earth
+  elements and humic acids by modeling: {PHREEQC-M}odel vi coupling.
+\newblock \emph{Geochimica et Cosmochimica Acta}, 75\penalty0 (19):\penalty0
+  5625--5637, 2011.
+
+\bibitem[Pourret et~al.(2007{\natexlab{b}})Pourret, Davranche, Gruau, and
+  Dia]{Pourret_CG_2007}
+Olivier Pourret, Mélanie Davranche, Gérard Gruau, and Aline Dia.
+\newblock Rare earth elements complexation with humic acid.
+\newblock \emph{Chemical Geology}, 243\penalty0 (1–2):\penalty0 128--141,
+  2007{\natexlab{b}}.
+
+\bibitem[Stern et~al.(2007)Stern, Sonke, and Salters]{Stern_CG_2007}
+Jennifer~C. Stern, Jeroen~E. Sonke, and Vincent J.~M. Salters.
+\newblock A capillary electrophoresis-{ICP-MS} study of rare earth element
+  complexation by humic acids.
+\newblock \emph{Chemical Geology}, 246\penalty0 (3–4):\penalty0 170--180,
+  2007.
 
 \end{thebibliography}

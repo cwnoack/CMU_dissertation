@@ -10,45 +10,45 @@ Name 1 in "{R Core Team}," has a comma at the end for entry R
 while executing---line 1315 of file unsrtnat.bst
 Name 1 in "{R Core Team}," has a comma at the end for entry R
 while executing---line 1315 of file unsrtnat.bst
-You've used 131 entries,
+You've used 134 entries,
             2481 wiz_defined-function locations,
-            1386 strings with 33452 characters,
-and the built_in function-call counts, 53496 in all, are:
-= -- 4334
-> -- 2867
+            1402 strings with 34000 characters,
+and the built_in function-call counts, 54802 in all, are:
+= -- 4435
+> -- 2948
 < -- 61
-+ -- 1104
-- -- 838
-* -- 4614
-:= -- 8537
-add.period$ -- 393
-call.type$ -- 131
-change.case$ -- 259
-chr.to.int$ -- 127
-cite$ -- 132
-duplicate$ -- 2507
-empty$ -- 4973
-format.name$ -- 1043
-if$ -- 11423
-int.to.chr$ -- 5
-int.to.str$ -- 132
-missing$ -- 132
-newline$ -- 663
-num.names$ -- 393
-pop$ -- 955
++ -- 1135
+- -- 862
+* -- 4740
+:= -- 8749
+add.period$ -- 402
+call.type$ -- 134
+change.case$ -- 265
+chr.to.int$ -- 129
+cite$ -- 135
+duplicate$ -- 2564
+empty$ -- 5089
+format.name$ -- 1070
+if$ -- 11697
+int.to.chr$ -- 6
+int.to.str$ -- 135
+missing$ -- 135
+newline$ -- 678
+num.names$ -- 402
+pop$ -- 976
 preamble$ -- 1
-purify$ -- 131
+purify$ -- 134
 quote$ -- 0
-skip$ -- 1426
+skip$ -- 1453
 stack$ -- 0
-substring$ -- 3005
-swap$ -- 301
+substring$ -- 3080
+swap$ -- 309
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 905
+type$ -- 926
 warning$ -- 1
-while$ -- 392
+while$ -- 401
 width$ -- 0
-write$ -- 1707
+write$ -- 1746
 (There were 3 error messages)
