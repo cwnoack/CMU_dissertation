@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Ch3_REE-in-water.aux
+The style file: unsrtnat.bst
+Database file #1: Ch3_bib_edit.bib
+Name 1 in "{R Core Team}," has a comma at the end for entry R
+while executing---line 1233 of file unsrtnat.bst
+Warning--can't use both author and editor fields in Castor_Hedrick
+Name 1 in "{R Core Team}," has a comma at the end for entry R
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "{R Core Team}," has a comma at the end for entry R
+while executing---line 1315 of file unsrtnat.bst
+You've used 131 entries,
+            2481 wiz_defined-function locations,
+            1386 strings with 33452 characters,
+and the built_in function-call counts, 53496 in all, are:
+= -- 4334
+> -- 2867
+< -- 61
++ -- 1104
+- -- 838
+* -- 4614
+:= -- 8537
+add.period$ -- 393
+call.type$ -- 131
+change.case$ -- 259
+chr.to.int$ -- 127
+cite$ -- 132
+duplicate$ -- 2507
+empty$ -- 4973
+format.name$ -- 1043
+if$ -- 11423
+int.to.chr$ -- 5
+int.to.str$ -- 132
+missing$ -- 132
+newline$ -- 663
+num.names$ -- 393
+pop$ -- 955
+preamble$ -- 1
+purify$ -- 131
+quote$ -- 0
+skip$ -- 1426
+stack$ -- 0
+substring$ -- 3005
+swap$ -- 301
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 905
+warning$ -- 1
+while$ -- 392
+width$ -- 0
+write$ -- 1707
+(There were 3 error messages)

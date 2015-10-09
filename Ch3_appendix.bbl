@@ -1,0 +1,30 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Helsel(2012)]{Helsel_book}
+D.R. Helsel.
+\newblock \emph{Statistics for Censored Environmental Data Using {M}initab and
+  {R}}.
+\newblock Wiley, 2 edition, 2012.
+
+\bibitem[Xie and Liu(2005)]{Xie_SiM_2005}
+Jun Xie and Chaofeng Liu.
+\newblock Adjusted {Kaplan--Meier} estimator and log-rank test with inverse
+  probability of treatment weighting for survival data.
+\newblock \emph{Statistics in Medicine}, 24\penalty0 (20):\penalty0 3089--3110,
+  2005.
+
+\bibitem[Singh et~al.(2013)Singh, Neuhauser, Azzolina, Distler, Anders,
+  Doroski, and Rabideau]{Singh_JAWMA_2013}
+Anshuman Singh, Edward~F Neuhauser, Nicholas~A Azzolina, Mark Distler, Krista~M
+  Anders, Melissa~A Doroski, and Alan~J Rabideau.
+\newblock Statistical techniques for analyzing of soil vapor intrusion data: A
+  case study of manufactured gas plant sites.
+\newblock \emph{Journal of the Air \& Waste Management Association},
+  63\penalty0 (2):\penalty0 219--229, 2013.
+
+\end{thebibliography}

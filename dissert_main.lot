@@ -1,3 +1,21 @@
 \addvspace {10\p@ }
+\gdef \the@ipfilectr {@-1}
 \addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Typical operating conditions for ICP-MS analysis. Analysis performed on Agilent 7700x using oxygen-free argon as the carrier and dilution gas and ultra high-purity helium in the reaction cell. Conditions determined using 1000:1 diluted Agilent tuning solution. For elements where multiple mass-to-charge ratios were monitored, \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 4\noexpand 8}\noexpand S\noexpand m}, \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 5\noexpand 1}\noexpand E\noexpand u}, and \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 5\noexpand 7}\noexpand G\noexpand d} were used in data analysis.\relax }}{57}{table.caption.32}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Doehlert experimental design matrix for LLE validation in chemically complex brines. Doehlert coding for each experiment are given in parentheses next to the parameter value. All variables were varied arithmetically.\relax }}{59}{table.caption.33}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}

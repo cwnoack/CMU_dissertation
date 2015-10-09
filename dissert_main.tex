@@ -17,19 +17,19 @@
 
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{chapterbib}
-\usepackage{hyperref}
 
 \usepackage[Lenny]{fncychap}
 \ChTitleVar{\Huge\sffamily\bfseries}
 
 
 \renewcommand{\bibname}{References}
-\newenvironment{codechunk}
-	{\begin{snugshade}
-	 \begin{verbatim}}
-	{\end{verbatim}
-	 \end{snugshade}}
+%\newenvironment{codechunk}
+%	{\begin{snugshade}
+%	 \begin{verbatim}}
+%	{\end{verbatim}
+%	 \end{snugshade}}
 
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -49,6 +49,8 @@ This page intentionally left blank.
 %Title page
 \input{title_page}
 
+\input{thesis_abstract}
+
 \tableofcontents
 
 \listoftables
@@ -60,6 +62,8 @@ This page intentionally left blank.
 % Chapter 1 - Intro, problem, goals
 \mainmatter
 \include{Ch1_Introduction}
+
+\include{Ch2_Background}
 
 \include{Ch3_REE-in-water}
 

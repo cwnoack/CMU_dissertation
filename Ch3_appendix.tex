@@ -1,5 +1,6 @@
-\chapter{Supporting information for Chapter~\ref{chap:REE-review}}
+\chapter{Supporting information for Chapter~\ref{chap:REE-review}}\label{app:REE-review}
 \chaptermark{SI for REE in natural waters}
+
 \section{Weighted Kaplan-Meier estimation of survival function for analyzing left-censored data}
 \sectionmark{Analysis of left-censored data}
 
@@ -12,7 +13,7 @@ The weighted Kaplan-Meier (KM) estimator (\(\widehat{S}(x_i)\)) is expressed as:
 where, for application to aqueous chemistry data, \(\widehat{S}(x_i)\) is estimate of the probability of any measured concentration, \(x\), from the population being \emph{less} than \(x_i\).
 It is calculated using the weighted count of uncensored observations at \(x_i\) (\(d_i\)) and the weighted count of all (censored or uncensored) observed concentrations less than \(x_i\) (\(Y_i^w\)).
 The weighting of each data point is calculated here as the inverse of the number of samples from the data source, or \(w_i = n_i^{-1}\).
-This curve can be used to estimate the quantiles of the data distribution as well as make estimates of the mean and variance of the population.
+This curve can be used to estimate the quantiles of the data distribution as well as make estimates of the mean and variance of the population \citep{Helsel_book}.
 The computational methods here are adapted from Xie and Liu \citep{Xie_SiM_2005} and Singh et al. \citep{Singh_JAWMA_2013}.
 
 To demonstrate these calculations, random data, drawn from log-normal distributions, will be used, followed by analysis of the groundwater REE dataset.
@@ -350,4 +351,4 @@ plyr::ddply(R.g, .(Dataset),
 
 
 \bibliographystyle{unsrtnat}
-\bibliography{Ch4_appendix_bib}
+\bibliography{Ch3_appendix_bib}

@@ -1,0 +1,417 @@
+\begin{thebibliography}{57}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[APS(2011)]{APS_CritMat}
+APS.
+\newblock Energy critical elements: {S}ecuring materials for emerging
+  technologies.
+\newblock Report, American Physical Society, 2011.
+
+\bibitem[Bauer et~al.(2010)Bauer, Diamond, Li, Sandalow, Telleen, and
+  Wanner]{USDOE_CritMat}
+D.~Bauer, D.~Diamond, J.~Li, D.~Sandalow, P.~Telleen, and B.~Wanner.
+\newblock {US Department of Energy Critical Materials Strategy}.
+\newblock Report, US Department of Energy, 2010.
+
+\bibitem[Castor and Hedrick(2006)]{Castor_Hedrick}
+Stephen~B. Castor and James~B. Hedrick.
+\newblock \emph{Rare Earth Elements}, pages 769--792.
+\newblock SME, 7 edition, 2006.
+
+\bibitem[Lund et~al.(2011)Lund, Freeston, and Boyd]{Lund_Geothermics_2011}
+John~W. Lund, Derek~H. Freeston, and Tonya~L. Boyd.
+\newblock Direct utilization of geothermal energy 2010 worldwide review.
+\newblock \emph{Geothermics}, 40\penalty0 (3):\penalty0 159--180, 2011.
+
+\bibitem[Administration(2013)]{EIA_2013}
+U.S. Energy~Information Administration.
+\newblock Annual energy outlook 2014 early release overview.
+\newblock Report, U.S. Energy Information Administration, 2013.
+
+\bibitem[Shannon et~al.(2008)Shannon, Bohn, Elimelech, Georgiadis, Mariñas,
+  and Mayes]{Shannon_Nat_2008}
+Mark~A Shannon, Paul~W Bohn, Menachem Elimelech, John~G Georgiadis, Benito~J
+  Mariñas, and Anne~M Mayes.
+\newblock Science and technology for water purification in the coming decades.
+\newblock \emph{Nature}, 452\penalty0 (7185):\penalty0 301--310, 2008.
+
+\bibitem[Elimelech and Phillip(2011)]{Elimelech_Sci_2011}
+Menachem Elimelech and William~A. Phillip.
+\newblock The future of seawater desalination: {E}nergy, technology, and the
+  environment.
+\newblock \emph{Science}, 333\penalty0 (6043):\penalty0 712--717, 2011.
+
+\bibitem[Agatemor and Beauchemin(2011)]{Agatemor_ACA_2011}
+Christian Agatemor and Diane Beauchemin.
+\newblock Matrix effects in inductively coupled plasma mass spectrometry: A
+  review.
+\newblock \emph{Analytica Chimica Acta}, 706\penalty0 (1):\penalty0 66--83,
+  2011.
+
+\bibitem[Benkhedda et~al.(2001)Benkhedda, Infante, Ivanova, and
+  Adams]{Benkhedda_JAAS_2001}
+K.~Benkhedda, H.~G. Infante, E.~Ivanova, and F.~C. Adams.
+\newblock Determination of sub-parts-per-trillion levels of rare earth elements
+  in natural waters by inductively coupled plasma time-of-flight mass
+  spectrometry after flow injection on-line sorption preconcentration in a
+  knotted reactor.
+\newblock \emph{Journal of Analytical Atomic Spectrometry}, 16\penalty0
+  (9):\penalty0 995--1001, 2001.
+
+\bibitem[Fu et~al.(2007)Fu, Yang, and Wang]{Fu_Tal_2007}
+Qiang Fu, Limin Yang, and Qiuquan Wang.
+\newblock On-line preconcentration with a novel alkyl phosphinic acid
+  extraction resin coupled with inductively coupled plasma mass spectrometry
+  for determination of trace rare earth elements in seawater.
+\newblock \emph{Talanta}, 72\penalty0 (4):\penalty0 1248--1254, 2007.
+
+\bibitem[Haley and Klinkhammer(2003)]{Haley_MC_2003}
+Brian~A. Haley and Gary~P. Klinkhammer.
+\newblock Complete separation of rare earth elements from small volume seawater
+  samples by automated ion chromatography: method development and application
+  to benthic flux.
+\newblock \emph{Marine Chemistry}, 82\penalty0 (3–4):\penalty0 197--220,
+  2003.
+
+\bibitem[Halicz et~al.(1996)Halicz, Gavrieli, and Dorfman]{Halicz_JAAS_1996}
+Ludwik Halicz, Ittai Gavrieli, and Ethel Dorfman.
+\newblock On-line method for inductively coupled plasma mass spectrometric
+  determination of rare earth elements in highly saline brines.
+\newblock \emph{Journal of Analytical Atomic Spectrometry}, 11\penalty0
+  (9):\penalty0 811--814, 1996.
+
+\bibitem[Hirata et~al.(2002)Hirata, Kajiya, Aihara, Honda, and
+  Shikino]{Hirata_Tal_2002}
+Shizuko Hirata, Tasuku Kajiya, Masato Aihara, Kazuto Honda, and Osamu Shikino.
+\newblock Determination of rare earth elements in seawater by on-line column
+  preconcentration inductively coupled plasma mass spectrometry.
+\newblock \emph{Talanta}, 58\penalty0 (6):\penalty0 1185--1194, 2002.
+
+\bibitem[Kajiya et~al.(2004)Kajiya, Aihara, and Hirata]{Kajiya_SAB_2004}
+Tasuku Kajiya, Masato Aihara, and Shizuko Hirata.
+\newblock Determination of rare earth elements in seawater by inductively
+  coupled plasma mass spectrometry with on-line column pre-concentration using
+  8-quinolinole-immobilized fluorinated metal alkoxide glass.
+\newblock \emph{Spectrochimica Acta Part B: Atomic Spectroscopy}, 59\penalty0
+  (4):\penalty0 543--550, 2004.
+
+\bibitem[Katarina et~al.(2009)Katarina, Oshima, and
+  Motomizu]{Katarina_Tal_2009}
+Rosi~Ketrin Katarina, Mitsuko Oshima, and Shoji Motomizu.
+\newblock High-capacity chitosan-based chelating resin for on-line collection
+  of transition and rare-earth metals prior to inductively coupled
+  plasma-atomic emission spectrometry measurement.
+\newblock \emph{Talanta}, 79\penalty0 (5):\penalty0 1252--1259, 2009.
+
+\bibitem[Kim et~al.(2010)Kim, Kim, and Kim]{Kim_AG_2010}
+Intae Kim, Seolwon Kim, and Guebuem Kim.
+\newblock Analytical artifacts associated with the chelating resin extraction
+  of dissolved rare earth elements in natural water samples.
+\newblock \emph{Aquatic Geochemistry}, 16\penalty0 (4):\penalty0 611--620,
+  2010.
+
+\bibitem[Kühn and Kriews(2000)]{Kuhn_FJAC_2000}
+M.~Kühn and M.~Kriews.
+\newblock Improved detection of transition and rare earth elements in marine
+  samples with the {CETAC DSX}-100 preconcentration/matrix elimination system
+  and {ICP-MS}.
+\newblock \emph{Fresenius' Journal of Analytical Chemistry}, 367\penalty0
+  (5):\penalty0 440--444, 2000.
+
+\bibitem[Kumar et~al.(2011)Kumar, Pandey, Shenoy, and Kumar]{Kumar_Desal_2011}
+Sanjukta~A. Kumar, Shailaja~P. Pandey, Niyoti~S. Shenoy, and Sangita~D. Kumar.
+\newblock Matrix separation and preconcentration of rare earth elements from
+  seawater by poly hydroxamic acid cartridge followed by determination using
+  {ICP-MS}.
+\newblock \emph{Desalination}, 281\penalty0 (0):\penalty0 49--54, 2011.
+
+\bibitem[Möller et~al.(1992)Möller, Dulski, and Luck]{Moller_SAB_1992}
+Peter Möller, Peter Dulski, and Joachim Luck.
+\newblock Determination of rare earth elements in seawater by inductively
+  coupled plasma-mass spectrometry.
+\newblock \emph{Spectrochimica Acta Part B: Atomic Spectroscopy}, 47\penalty0
+  (12):\penalty0 1379--1387, 1992.
+
+\bibitem[Stetzenbach et~al.(1994)Stetzenbach, Amano, Kreamer, and
+  Hodge]{Stetzenbach_GW_1994}
+Klaus~J. Stetzenbach, Megumi Amano, David~K. Kreamer, and Vernon~F. Hodge.
+\newblock Testing the limits of {ICP-MS}: {D}etermination of trace elements in
+  ground water at the part-per-trillion level.
+\newblock \emph{Ground Water}, 32\penalty0 (6):\penalty0 976--985, 1994.
+
+\bibitem[Vicente et~al.(1998)Vicente, Padró, Martinez, Olsina, and
+  Marchevsky]{Vicente_SAB_1998}
+O.~Vicente, A.~Padró, L.~Martinez, R.~Olsina, and E.~Marchevsky.
+\newblock Determination of some rare earth elements in seawater by inductively
+  coupled plasma mass spectrometry using flow injection preconcentration.
+\newblock \emph{Spectrochimica Acta Part B: Atomic Spectroscopy}, 53\penalty0
+  (9):\penalty0 1281--1287, 1998.
+
+\bibitem[Wen et~al.(1999)Wen, Shan, and Xu]{Wen_Analyst_1999}
+Bei Wen, Xiao-quan Shan, and Shu-guang Xu.
+\newblock Preconcentration of ultratrace rare earth elements in seawater with
+  8-hydroxyquinoline immobilized polyacrylonitrile hollow fiber membrane for
+  determination by inductively coupled plasma mass spectrometry.
+\newblock \emph{Analyst}, 124\penalty0 (4):\penalty0 621--626, 1999.
+
+\bibitem[Willie and Sturgeon(2001)]{Willie_SAB_2001}
+S.~N. Willie and R.~E. Sturgeon.
+\newblock Determination of transition and rare earth elements in seawater by
+  flow injection inductively coupled plasma time-of-flight mass spectrometry.
+\newblock \emph{Spectrochimica Acta Part B: Atomic Spectroscopy}, 56\penalty0
+  (9):\penalty0 1707--1716, 2001.
+
+\bibitem[Zhang et~al.(1998)Zhang, Shan, Liu, Tang, and Zhang]{Zhang_AC_1998}
+Tian-hong Zhang, Xiao-quan Shan, Rui-xia Liu, Hong-xiao Tang, and Shu-zhen
+  Zhang.
+\newblock Preconcentration of rare earth elements in seawater with
+  poly(acrylaminophosphonic dithiocarbamate) chelating fiber prior to
+  determination by inductively coupled plasma mass spectrometry.
+\newblock \emph{Analytical Chemistry}, 70\penalty0 (18):\penalty0 3964--3968,
+  1998.
+
+\bibitem[Zhu et~al.(2009)Zhu, Umemura, Haraguchi, Inagaki, and
+  Chiba]{Zhu_Tal_2009}
+Yanbei Zhu, Tomonari Umemura, Hiroki Haraguchi, Kazumi Inagaki, and Koichi
+  Chiba.
+\newblock Determination of {REE}s in seawater by {ICP-MS} after on-line
+  preconcentration using a syringe-driven chelating column.
+\newblock \emph{Talanta}, 78\penalty0 (3):\penalty0 891--895, 2009.
+
+\bibitem[Shaw et~al.(2003)Shaw, Duncan, and Schnetger]{Shaw_AC_2003}
+Timothy~J. Shaw, Thomas Duncan, and Bernhard Schnetger.
+\newblock A preconcentration/matrix reduction method for the analysis of rare
+  earth elements in seawater and groundwaters by isotope dilution {ICPMS}.
+\newblock \emph{Analytical Chemistry}, 75\penalty0 (14):\penalty0 3396--3403,
+  2003.
+
+\bibitem[Shannon and Wood(2005)]{Shannon_REEinGWFS}
+William~M. Shannon and S.~A. Wood.
+\newblock \emph{The Analysis of Picogram Quantities of Rare Earth Elements in
+  Natural Waters}, page 1—37.
+\newblock Springer, Dordrecht, The Netherlands, 2005.
+
+\bibitem[Raso et~al.(2013)Raso, Censi, and Saiano]{Raso_Tal_2013}
+Maria Raso, Paolo Censi, and Filippo Saiano.
+\newblock Simultaneous determinations of zirconium, hafnium, yttrium and
+  lanthanides in seawater according to a co-precipitation technique onto
+  iron-hydroxide.
+\newblock \emph{Talanta}, 116\penalty0 (0), 2013.
+
+\bibitem[Shabani et~al.(1990)Shabani, Akagi, Shimizu, and
+  Masuda]{Shabani_AC_1990}
+Mohammad~B. Shabani, Tasuku Akagi, Hiroshi Shimizu, and Akimasa Masuda.
+\newblock Determination of trace lanthanides and yttrium in seawater by
+  inductively coupled plasma mass spectrometry after preconcentration with
+  solvent extraction and back-extraction.
+\newblock \emph{Analytical Chemistry}, 62\penalty0 (24):\penalty0 2709--2714,
+  1990.
+
+\bibitem[Lawrence and Kamber(2007)]{Lawrence_GGR_2007}
+Michael~G. Lawrence and Balz~S. Kamber.
+\newblock Rare earth element concentrations in the natural water reference
+  materials {(NRCC) NASS-5, CASS-4 and SLEW-3}.
+\newblock \emph{Geostandards and Geoanalytical Research}, 31\penalty0
+  (2):\penalty0 95--103, 2007.
+
+\bibitem[Kimura(1960)]{Kimura_BCSJ_1960}
+Kan Kimura.
+\newblock Inorganic extraction studies on the system between bis (2-ethyl
+  hexyl)-orthophosphoric acid and hydrochloric acid (i).
+\newblock \emph{Bulletin of the Chemical Society of Japan}, 33\penalty0
+  (8):\penalty0 1038--1046, 1960.
+
+\bibitem[Kimura(1961)]{Kimura_BCSJ_1961}
+Kan Kimura.
+\newblock Inorganic extraction studies on the system between bis (2-ethyl
+  hexyl)-orthophosphoric acid and hydrochloric acid (ii).
+\newblock \emph{Bull. Chem. Soc. Japan}, 34, 1961.
+
+\bibitem[Noack et~al.(2014)Noack, Dzombak, and Karamalidis]{Noack_EST_2014}
+Clinton~W. Noack, David~A. Dzombak, and Athanasios~K. Karamalidis.
+\newblock Rare earth element distributions and trends in natural waters with a
+  focus on groundwater.
+\newblock \emph{Environmental Science \& Technology}, 48\penalty0 (8):\penalty0
+  4317--4326, 2014.
+
+\bibitem[Oliveira et~al.(2011)Oliveira, Yang, Sturgeon, Santelli, Bezerra,
+  Willie, and Capilla]{Oliveira_JAAS_2011}
+Eliane~Padua Oliveira, Lu~Yang, Ralph~E. Sturgeon, Ricardo~Erthal Santelli,
+  Marcos~Almeida Bezerra, Scott~N. Willie, and Ramses Capilla.
+\newblock Determination of trace metals in high-salinity petroleum produced
+  formation water by inductively coupled plasma mass spectrometry following
+  on-line analyte separation/preconcentration.
+\newblock \emph{Journal of Analytical Atomic Spectrometry}, 26\penalty0
+  (3):\penalty0 578--585, 2011.
+
+\bibitem[Nelson et~al.(2014)Nelson, May, Knight, Eitrheim, Mehrhoff, Shannon,
+  Litman, and Schultz]{Nelson_ESTL_2014}
+Andrew~W. Nelson, Dustin May, Andrew~W. Knight, Eric~S. Eitrheim, Marinea
+  Mehrhoff, Robert Shannon, Robert Litman, and Michael~K. Schultz.
+\newblock Matrix complications in the determination of radium levels in
+  hydraulic fracturing flowback water from {Marcellus Shale}.
+\newblock \emph{Environmental Science \& Technology Letters}, 1\penalty0
+  (3):\penalty0 204--208, 2014.
+
+\bibitem[Erel and Stolper(1993)]{Erel_GCA_1993}
+Yigal Erel and Edward~M. Stolper.
+\newblock Modeling of rare-earth element partitioning between particles and
+  solution in aquatic environments.
+\newblock \emph{Geochimica et Cosmochimica Acta}, 57\penalty0 (3):\penalty0
+  513--518, 1993.
+
+\bibitem[Nash(1993)]{Nash_SXIX_1993}
+Kenneth~L. Nash.
+\newblock A review of the basic chemistry and recent developments in trivalent
+  f-elements separations.
+\newblock \emph{Solvent Extraction and Ion Exchange}, 11\penalty0 (4):\penalty0
+  729--768, 1993.
+
+\bibitem[Weaver and Kappelmann(1964)]{Weaver_ORNL_1964}
+Boyd Weaver and FA~Kappelmann.
+\newblock {TALSPEAK}: {A} new method of separating americium and curium from
+  the lanthanides by extraction from an aqueous solution of an aminopolyacetic
+  acid complex with a monoacidic organophosphate or phosphonate.
+\newblock Report, Oak Ridge National Lab., Tenn., 1964.
+
+\bibitem[Nilsson and Nash(2007)]{Nilsson_SXIX_2007}
+Mikael Nilsson and Kenneth~L Nash.
+\newblock Review article: {A} review of the development and operational
+  characteristics of the {TALSPEAK} process.
+\newblock \emph{Solvent Extraction and Ion Exchange}, 25\penalty0 (6):\penalty0
+  665--701, 2007.
+
+\bibitem[Jenner et~al.(1990)Jenner, Longerich, Jackson, and
+  Fryer]{Jenner_CG_1990}
+GA~Jenner, HP~Longerich, SE~Jackson, and BJ~Fryer.
+\newblock {ICP-MS} - a powerful tool for high-precision trace-element analysis
+  in earth sciences: evidence from analysis of selected {USGS} reference
+  samples.
+\newblock \emph{Chemical Geology}, 83\penalty0 (1):\penalty0 133--148, 1990.
+
+\bibitem[McGinnis et~al.(1997)McGinnis, Jain, and Neal]{McGinnis_GN_1997}
+Cathleen~E. McGinnis, Jinesh~C. Jain, and Clive~R. Neal.
+\newblock Characterisation of memory effects and development of an effective
+  wash protocol for the measurement of petrogenetically critical trace elements
+  in geological samples by {ICP-MS}.
+\newblock \emph{Geostandards Newsletter}, 21\penalty0 (2):\penalty0 289--305,
+  1997.
+
+\bibitem[Aries et~al.(2000)Aries, Valladon, Polvé, and Dupré]{Aries_GN_2000}
+Sébastien Aries, Michel Valladon, Mireille Polvé, and Bernard Dupré.
+\newblock A routine method for oxide and hydroxide interference corrections in
+  {ICP-MS} chemical analysis of environmental and geological samples.
+\newblock \emph{Geostandards Newsletter}, 24\penalty0 (1):\penalty0 19--31,
+  2000.
+
+\bibitem[Thompson et~al.(1999)Thompson, Ellison, Fajgelj, Willetts, and
+  Wood]{IUPAC}
+Michael Thompson, Steven~LR Ellison, Aleš Fajgelj, Paul Willetts, and Roger
+  Wood.
+\newblock Harmonized guidelines for the use of recovery information in
+  analytical measurement.
+\newblock \emph{Pure and applied chemistry}, 71\penalty0 (2):\penalty0
+  337--348, 1999.
+
+\bibitem[Zawisza et~al.(2011)Zawisza, Pytlakowska, Feist, Polowniak, Kita, and
+  Sitko]{Zawisza_JAAS_2011}
+Beata Zawisza, Katarzyna Pytlakowska, Barbara Feist, Marzena Polowniak, Andrzej
+  Kita, and Rafal Sitko.
+\newblock Determination of rare earth elements by spectroscopic techniques: a
+  review.
+\newblock \emph{Journal of Analytical Atomic Spectrometry}, 26\penalty0
+  (12):\penalty0 2373--2390, 2011.
+
+\bibitem[Doehlert(1970)]{Doehlert}
+David~H. Doehlert.
+\newblock Uniform shell designs.
+\newblock \emph{Journal of the Royal Statistical Society. Series C (Applied
+  Statistics)}, 19\penalty0 (3):\penalty0 231--239, 1970.
+
+\bibitem[Haluszczak et~al.(2013)Haluszczak, Rose, and Kump]{Haluszczak_AG_2013}
+Lara~O. Haluszczak, Arthur~W. Rose, and Lee~R. Kump.
+\newblock Geochemical evaluation of flowback brine from {M}arcellus gas wells
+  in {Pennsylvania, USA}.
+\newblock \emph{Applied Geochemistry}, 28:\penalty0 55--61, 2013.
+
+\bibitem[Barbot et~al.(2013)Barbot, Vidic, Gregory, and Vidic]{Barbot_EST_2013}
+Elise Barbot, Natasa~S. Vidic, Kelvin~B. Gregory, and Radisav~D. Vidic.
+\newblock Spatial and temporal correlation of water quality parameters of
+  produced waters from devonian-age shale following hydraulic fracturing.
+\newblock \emph{Environmental Science \& Technology}, 47\penalty0 (6):\penalty0
+  2562--2569, 2013.
+
+\bibitem[Gregory et~al.(2011)Gregory, Vidic, and
+  Dzombak]{Gregory_Elements_2011}
+Kelvin~B. Gregory, Radisav~D. Vidic, and David~A. Dzombak.
+\newblock Water management challenges associated with the production of shale
+  gas by hydraulic fracturing.
+\newblock \emph{Elements}, 7\penalty0 (3):\penalty0 181--186, 2011.
+
+\bibitem[Murali~Mohan et~al.(2013)Murali~Mohan, Hartsock, Bibby, Hammack,
+  Vidic, and Gregory]{Arvind_EST_2013}
+Arvind Murali~Mohan, Angela Hartsock, Kyle~J. Bibby, Richard~W. Hammack,
+  Radisav~D. Vidic, and Kelvin~B. Gregory.
+\newblock Microbial community changes in hydraulic fracturing fluids and
+  produced water from shale gas extraction.
+\newblock \emph{Environmental Science \& Technology}, 47\penalty0
+  (22):\penalty0 13141--13150, 2013.
+
+\bibitem[Vidic et~al.(2013)Vidic, Brantley, Vandenbossche, Yoxtheimer, and
+  Abad]{Vidic_Sci_2013}
+RD~Vidic, SL~Brantley, JM~Vandenbossche, D~Yoxtheimer, and JD~Abad.
+\newblock Impact of shale gas development on regional water quality.
+\newblock \emph{Science}, 340\penalty0 (6134), 2013.
+\newblock ISSN 0036-8075.
+
+\bibitem[Kharaka et~al.(2000)Kharaka, Lundegard, and
+  Giordano]{Kharaka_REG_2000}
+Yousif~K Kharaka, Paul~D Lundegard, and Thomas~H Giordano.
+\newblock Distribution and origin of organic ligands in subsurface waters from
+  sedimentary basins.
+\newblock \emph{Rev. Econ. Geol}, 9:\penalty0 119--131, 2000.
+
+\bibitem[Wolford(2011)]{Wolford_PSU_2011}
+Robert Wolford.
+\newblock \emph{Characterization of organics in the {Marcellus Shale} flowback
+  and produced waters}.
+\newblock Thesis, The Pennsylvania State University, 2011.
+
+\bibitem[Team(2014)]{R}
+R~Core Team.
+\newblock R: A language and environment for statistical computing, 2014.
+
+\bibitem[Taverniers et~al.(2004)Taverniers, De~Loose, and
+  Van~Bockstaele]{Taverniers_TrAC_2004}
+Isabel Taverniers, Marc De~Loose, and Erik Van~Bockstaele.
+\newblock Trends in quality in the analytical laboratory. {II. A}nalytical
+  method validation and quality assurance.
+\newblock \emph{TrAC Trends in Analytical Chemistry}, 23\penalty0 (8):\penalty0
+  535--552, 2004.
+
+\bibitem[McGill et~al.(1978)McGill, Tukey, and Larsen]{boxplots}
+Robert McGill, John~W Tukey, and Wayne~A Larsen.
+\newblock Variations of box plots.
+\newblock \emph{The American Statistician}, 32\penalty0 (1):\penalty0 12--16,
+  1978.
+
+\bibitem[Bau and Dulski(1996)]{Bau_EPSL_1996}
+Michael Bau and Peter Dulski.
+\newblock Anthropogenic origin of positive gadolinium anomalies in river
+  waters.
+\newblock \emph{Earth and Planetary Science Letters}, 143\penalty0
+  (1):\penalty0 245--255, 1996.
+
+\bibitem[Kulaksiz and Bau(2013)]{Kulaksiz_EPSL_2013}
+Serkan Kulaksiz and Michael Bau.
+\newblock Anthropogenic dissolved and colloid/nanoparticle-bound samarium,
+  lanthanum and gadolinium in the rhine river and the impending destruction of
+  the natural rare earth element distribution in rivers.
+\newblock \emph{Earth and Planetary Science Letters}, 362:\penalty0 43--50,
+  2013.
+
+\end{thebibliography}

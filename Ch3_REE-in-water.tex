@@ -69,10 +69,14 @@ Many studies filter at finer pore sizes in order to study colloidal association 
 however 0.45 \si{\um} was chosen because it is a common size for groundwater analysis and  maximized the number of samples available.
 While REE are commonly defined to include Y and Sc, very few studies measured Y and almost none examined Sc.
 Therefore, our analyses of REE focused on the 14 naturally abundant lanthanides (excluding the short-lived, radioactive Pm).
-In total, 31 studies with 619 samples were collected for groundwater,14, 19, 20, 22, 33-35, 37-40, 43-63
-16 studies with 178 samples for seawater,7, 45, 64-77
-16 studies with 259 samples for river water,12, 19, 48, 67, 71, 78-89
-and 8 studies with 74 samples for lake water.19, 56, 57, 82, 85, 90-92
+In total, 31 studies with 619 samples were collected for groundwater
+\citep{Choi_CG_2009, BwireOjiambo_AG_2003, Siebert_AG_2012, Dia_GCA_2000, Gruau_WR_2004, Pourret_AG_2010, Johannesson_GCA_1999, Johannesson_CG_2000, Tang_CG_2006, Willis_CG_2011, Tweed_CG_2006, Johannesson_GCA_2000, Duncan_AG_2003, Smedley_GCA_1991, Gosselin_GCA_1992, Tricca_CG_1999, Johannesson_CG_1996, Michard_GCA_1987, Janssen_WR_2003, Worrall_AG_2001, Yan_CG_2001, Moller_AG_1998, Guo_CG_2010, Johannesson_AG_1995, Leybourne_AG_2000, deBoer_WR_1996, Miekeley_JGE_1992, Negrel_AG_2000, E-V_EES_2012, Otsuka_GJ_2003, Nelson_GEEA_2004},
+16 studies with 178 samples for seawater
+\citep{DeBaar_Nat_1983, Duncan_AG_2003, Alibo_GCA_1999, Bau_MC_1997, Elderfield_Nat_1982, Elderfield_GCA_1990, Fu_Tal_2007, Haley_MC_2003, Hirata_Tal_2002, Nozaki_GCA_1999, Piepgras_GCA_1992, Schijf_GCA_1995, Sholkovitz_GCA_1994, Vicente_SAB_1998, Zhu_JAC_2006, Nozaki_GCA_2000},
+16 studies with 259 samples for river water
+\citep{Hannigan_CG_2001, BwireOjiambo_AG_2003, Tricca_CG_1999, Elderfield_GCA_1990, Nozaki_GCA_1999, Astrom_WR_2003, Biddau_CG_2002, Centeno_AG_2004, Gammons_GCA_2005, Gammons_CG_2005, Han_AG_2007, Ingri_CG_2000, Johannesson_CG_2004, Lawrence_AG_2006, Sholkovitz_EPSL_1992, Tang_GCA_2003, Zhang_AG_1998},
+and 8 studies with 74 samples for lake water
+\citep{BwireOjiambo_AG_2003, Johannesson_AG_1995, Leybourne_AG_2000, Gammons_CG_2005, Johannesson_CG_2004, DeCarlo_GCA_2002, Johannesson_LO_1994, Johannesson_CG_1995}.19, 56, 57, 82, 85, 90-92
 
 A significant literature exists for other water types, for example mine drainage \citep{Borrego_HR_2012, Bozau_AG_2004, Doulati_JEE_2013, Romero_AG_2010, Verplank_AG_2004, Worrall_GCA_2001, Zhao_IJCG_2007} and hydrothermal waters/hot springs \citep{Haas_GCA_1995, Lepel_conf_1988, Michard_GCA_1989, Lewis_GCA_1997, Lewis_GCA_1998, Sanada_Geotherm_2006}.
 However, these water types have been excluded from this study in order to focus on waters minimally impacted by anthropogenic activity (in the case of mine drainage) and that occur broadly with chemistry dominated by near-surface pressure, temperature, and mineralogical conditions (in the case of hydrothermal waters/hot springs).
@@ -117,7 +121,7 @@ Equation~\ref{eq:wKM} represents the weighted KM estimator, where $\hat{S}(x_i)$
 In this equation $d_i^w$ represents the weighted count of uncensored observations at concentration $x_i$ and $Y_i^w$ represents the weighted count of all (censored and uncensored) observed concentrations less than $x_i$.
 The weight, $w_i$, of each observation is the inverse of the number of samples from the data source ($n_i$), or: $w_i = n_i^{-1}$.
 In the absence of weighting or censoring, this formula reduces to the empirical cumulative distribution function.
-These calculations, and the relevant \texttt{R} code, are discussed algorithmically in Appendix \textbf{A}.
+These calculations, and the relevant \texttt{R} code, are discussed algorithmically in Appendix~\ref{app:REE-review}.
 
 \begin{align}\label{eq:wKM}
 \hat{S}(x_i) = \prod_{x \geq x_i}\left(1 - \frac{d_i^w}{Y_i^w} \right)
@@ -422,9 +426,9 @@ Note that the values in (A) have been log-transformed while the axes of the sche
 
 The primary goal of this analysis was to understand large-scale REE variability and trends.
 However, researchers have understood that, because of complex geologies and watershed characteristics, there is significant merit in studying local, small-scale REE systematics.
-This leads to specialized studies, for example, on the importance of colloids,33, 35, 42, 84, 87
-phosphate complexation,12, 21, 91
-or organic compounds.41, 85, 132-134 
+This leads to specialized studies, for example, on the importance of colloids \citep{Dia_GCA_2000, Pourret_AG_2010, Stolpe_GCA_2013, Ingri_CG_2000, Sholkovitz_EPSL_1992},
+phosphate complexation \citep{Hannigan_CG_2001, Johannesson_EPSL_1996, Johannesson_LO_1994},12, 21, 91
+or organic compounds \citep{}.41, 85, 132-134 
 While this approach yields crucial understanding of these processes, it also leads to a paucity of consistent data for inter-study comparison.
 Moreover, it could motivate spurious extrapolation of thermodynamic or case study data to unique systems.
 
