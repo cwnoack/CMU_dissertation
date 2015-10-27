@@ -1,0 +1,39 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{U.S. Geological Survey}(2015)]{USGS_commsumm}
+{U.S. Geological Survey}.
+\newblock Mineral commodity summaries 2015.
+\newblock Report, U.S. Geological Survey, 2015.
+
+\bibitem[{Frost \& Sullivan}(2013)]{FrostSullivan_REEmarket}
+{Frost \& Sullivan}.
+\newblock Supply/demand dynamics of rare earth elements.
+\newblock Report, December 2013.
+
+\bibitem[Moss et~al.(2011)Moss, Tzimas, Kara, Willis, and Kooroshy]{JRC_2011}
+RL~Moss, E~Tzimas, H~Kara, P~Willis, and J~Kooroshy.
+\newblock Critical metals in strategic energy technologies.
+\newblock Technical report, European Commission Joint Research Centre Institute
+  for Energy and Transport, 2011.
+
+\bibitem[Alonso et~al.(2012)Alonso, Sherman, Wallington, Everson, Field, Roth,
+  and Kirchain]{Alonso_EST_2012}
+Elisa Alonso, Andrew~M Sherman, Timothy~J Wallington, Mark~P Everson, Frank~R
+  Field, Richard Roth, and Randolph~E Kirchain.
+\newblock Evaluating rare earth element availability: {A} case with
+  revolutionary demand from clean technologies.
+\newblock \emph{Environmental science \& technology}, 46\penalty0 (6):\penalty0
+  3406--3414, 2012.
+
+\bibitem[Zaimes et~al.(2015)Zaimes, Hubler, Wang, and Khanna]{Zaimes_SCE_2015}
+George~G. Zaimes, Berlyn~J. Hubler, Shuo Wang, and Vikas Khanna.
+\newblock Environmental life cycle perspective on rare earth oxide production.
+\newblock \emph{ACS Sustainable Chemistry \& Engineering}, 3\penalty0
+  (2):\penalty0 237--244, 2015.
+
+\end{thebibliography}

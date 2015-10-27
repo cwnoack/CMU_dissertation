@@ -1,14 +1,13 @@
-\documentclass[11pt,letterpaper,twoside,openany]{book}
+\documentclass[11pt,letterpaper,oneside]{book}
 \usepackage[parfill]{parskip}
-\usepackage{latexsym}
-\usepackage{amsfonts,amsmath,amssymb,siunitx,xcolor}
+\usepackage{latexsym,fixltx2e}
+\usepackage{amsfonts,amsmath,amssymb,siunitx,xcolor,titlesec,blindtext}
 \usepackage[version=3]{mhchem}
 \usepackage{url}
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp}
-\usepackage{longtable}
 \usepackage{multirow,booktabs,appendix}
-\usepackage{graphicx, rotating}
+\usepackage{graphicx}
 \usepackage[bf, small, centerlast]{caption}
 \usepackage{framed}
 \definecolor{shadecolor}{rgb}{0.97,0.97,0.97}
@@ -16,10 +15,21 @@
 \setlength{\belowcaptionskip}{0pt}
 
 \usepackage[numbers,sort&compress]{natbib}
-\usepackage{chapterbib}
+\usepackage[margin=1.25in]{geometry}
 
-\usepackage[Lenny]{fncychap}
-\ChTitleVar{\Huge\sffamily\bfseries}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{25pt}
+\lhead{Clint Noack}
+\chead{REE Measurement and Recovery}
+\rhead{Ph.D. Proposal}
+
+%\usepackage[Lenny]{fncychap}
+%\ChTitleVar{\Huge\sffamily\bfseries}
+
+\newcommand{\hsp}{\hspace{10pt}}
+
+\titleformat{\chapter}[hang]{\huge\bfseries}{\thechapter.0\hsp}{0pt}{\huge\bfseries}
 
 \renewcommand{\bibname}{References}
 %\newenvironment{codechunk}
@@ -33,22 +43,11 @@
 \begin{document}
 
 \frontmatter
-%Signature page
-\input{signature_page}
-
-\clearpage
-
-\thispagestyle{empty}
-\begin{center}
-This page intentionally left blank.
-\end{center}
-
-\clearpage`
 
 %Title page
-\input{title_page}
+\input{proposal_title_page}
 
-\input{thesis_abstract}
+\input{proposal_abstract}
 
 \tableofcontents
 
@@ -60,20 +59,21 @@ This page intentionally left blank.
 
 % Chapter 1 - Intro, problem, goals
 \mainmatter
-\include{Ch1_Introduction}
 
-\include{Ch2_Background}
+\include{proposal_intro}
 
-\include{Ch3_REE-in-water}
-
-\include{Ch4_LLE}
+\input{proposal_research_plan}
 
 \begin{appendix}
 
-\include{Ch3_appendix}
+%\include{Ch3_appendix}
 
-\include{Ch4_appendix}
+%\include{Ch4_appendix}
 
 \end{appendix}
 
+\bibliographystyle{unsrtnat}
+\bibliography{proposal_bib}
+
 \end{document}
+
