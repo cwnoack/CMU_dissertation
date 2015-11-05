@@ -4,58 +4,75 @@ The top-level auxiliary file: proposal-update-main_2015-10-15_v001.aux
 A level-1 auxiliary file: proposal_intro.aux
 The style file: unsrtnat.bst
 Database file #1: proposal_bib.bib
-Name 1 in "{U.S. Geological Survey}," has a comma at the end for entry USGS_commsumm
-while executing---line 1233 of file unsrtnat.bst
+Repeated entry---line 439 of file proposal_bib.bib
+ : @article{Graedel_PNAS_2015
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 450 of file proposal_bib.bib
+ : @article{Nassar_JIE_2015
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "ProdWat" isn't style-file defined
+--line 493 of file proposal_bib.bib
 Name 1 in "{Frost \& Sullivan}," has a comma at the end for entry FrostSullivan_REEmarket
 while executing---line 1233 of file unsrtnat.bst
 Name 1 in "{U.S. Geological Survey}," has a comma at the end for entry USGS_commsumm
-while executing---line 1315 of file unsrtnat.bst
-Name 1 in "{U.S. Geological Survey}," has a comma at the end for entry USGS_commsumm
-while executing---line 1315 of file unsrtnat.bst
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "{CDOGGR}," has a comma at the end for entry CDOGGR
+while executing---line 1233 of file unsrtnat.bst
 Name 1 in "{Frost \& Sullivan}," has a comma at the end for entry FrostSullivan_REEmarket
 while executing---line 1315 of file unsrtnat.bst
 Name 1 in "{Frost \& Sullivan}," has a comma at the end for entry FrostSullivan_REEmarket
 while executing---line 1315 of file unsrtnat.bst
 Warning--empty institution in FrostSullivan_REEmarket
-You've used 5 entries,
+Warning--empty chapter and pages in USGS_minyb_2012
+Name 1 in "{U.S. Geological Survey}," has a comma at the end for entry USGS_commsumm
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "{U.S. Geological Survey}," has a comma at the end for entry USGS_commsumm
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "{CDOGGR}," has a comma at the end for entry CDOGGR
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "{CDOGGR}," has a comma at the end for entry CDOGGR
+while executing---line 1315 of file unsrtnat.bst
+You've used 44 entries,
             2481 wiz_defined-function locations,
-            586 strings with 5501 characters,
-and the built_in function-call counts, 1810 in all, are:
-= -- 138
-> -- 119
-< -- 2
-+ -- 46
-- -- 36
-* -- 150
-:= -- 326
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 13
-chr.to.int$ -- 5
-cite$ -- 6
-duplicate$ -- 80
-empty$ -- 142
-format.name$ -- 41
-if$ -- 359
+            860 strings with 13164 characters,
+and the built_in function-call counts, 17300 in all, are:
+= -- 1406
+> -- 932
+< -- 24
++ -- 362
+- -- 274
+* -- 1432
+:= -- 2809
+add.period$ -- 136
+call.type$ -- 44
+change.case$ -- 90
+chr.to.int$ -- 44
+cite$ -- 46
+duplicate$ -- 825
+empty$ -- 1582
+format.name$ -- 340
+if$ -- 3672
 int.to.chr$ -- 1
-int.to.str$ -- 6
-missing$ -- 2
-newline$ -- 33
-num.names$ -- 15
-pop$ -- 33
+int.to.str$ -- 45
+missing$ -- 42
+newline$ -- 231
+num.names$ -- 132
+pop$ -- 328
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 44
 quote$ -- 0
-skip$ -- 46
+skip$ -- 479
 stack$ -- 0
-substring$ -- 58
-swap$ -- 8
-text.length$ -- 0
+substring$ -- 868
+swap$ -- 99
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 35
-warning$ -- 1
-while$ -- 12
+type$ -- 299
+warning$ -- 2
+while$ -- 127
 width$ -- 0
-write$ -- 71
-(There were 6 error messages)
+write$ -- 582
+(There were 11 error messages)

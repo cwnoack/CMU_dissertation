@@ -2,10 +2,11 @@
 \usepackage[parfill]{parskip}
 \usepackage{latexsym,fixltx2e}
 \usepackage{amsfonts,amsmath,amssymb,siunitx,xcolor,titlesec,blindtext}
+\usepackage{chemfig}
 \usepackage[version=3]{mhchem}
 \usepackage{url}
 \usepackage[utf8]{inputenc}
-\usepackage{textcomp}
+\usepackage{textcomp,notoccite}
 \usepackage{multirow,booktabs,appendix}
 \usepackage{graphicx}
 \usepackage[bf, small, centerlast]{caption}
@@ -15,12 +16,12 @@
 \setlength{\belowcaptionskip}{0pt}
 
 \usepackage[numbers,sort&compress]{natbib}
-\usepackage[margin=1.25in]{geometry}
+\usepackage[margin=1.2in]{geometry}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \setlength{\headheight}{25pt}
-\lhead{Clint Noack}
+\lhead{Clinton Noack}
 \chead{REE Measurement and Recovery}
 \rhead{Ph.D. Proposal}
 
@@ -51,9 +52,6 @@
 
 \tableofcontents
 
-\listoftables
-\addcontentsline{toc}{chapter}{List of Tables}
-
 \listoffigures
 \addcontentsline{toc}{chapter}{List of Figures}
 
@@ -63,6 +61,8 @@
 \include{proposal_intro}
 
 \input{proposal_research_plan}
+
+\input{proposal-broader-impacts}
 
 \begin{appendix}
 
