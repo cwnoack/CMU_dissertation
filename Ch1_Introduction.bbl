@@ -1,19 +1,37 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[{U.S. Geological Survey}(2015)]{USGS_commsumm}
-{U.S. Geological Survey}.
-\newblock Mineral commodity summaries 2015.
-\newblock Report, U.S. Geological Survey, 2015.
-
 \bibitem[{Frost \& Sullivan}(2013)]{FrostSullivan_REEmarket}
 {Frost \& Sullivan}.
 \newblock Supply/demand dynamics of rare earth elements.
 \newblock Report, December 2013.
+
+\bibitem[Gambogi(2012)]{USGS_minyb_2012}
+Joseph Gambogi.
+\newblock \emph{Rare Earths}.
+\newblock Minerals Yearbook. U.S. Geologic Survey, 2012.
+
+\bibitem[Nassar et~al.(2015)Nassar, Du, and Graedel]{Nassar_JIE_2015}
+N.~T. Nassar, Xiaoyue Du, and T.~E. Graedel.
+\newblock Criticality of the rare earth elements.
+\newblock \emph{Journal of Industrial Ecology}, In press., 2015.
+\newblock \doi{10.1111/jiec.12237}.
+
+\bibitem[Graedel et~al.(2015)Graedel, Harper, Nassar, and
+  Reck]{Graedel_PNAS_2015}
+T.~E. Graedel, E.~M. Harper, N.~T. Nassar, and Barbara~K. Reck.
+\newblock On the materials basis of modern society.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 112\penalty0
+  (20):\penalty0 6295--6300, 2015.
+
+\bibitem[{U.S. Geological Survey}(2015)]{USGS_commsumm}
+{U.S. Geological Survey}.
+\newblock Mineral commodity summaries 2015.
+\newblock Report, U.S. Geological Survey, 2015.
 
 \bibitem[Moss et~al.(2011)Moss, Tzimas, Kara, Willis, and Kooroshy]{JRC_2011}
 RL~Moss, E~Tzimas, H~Kara, P~Willis, and J~Kooroshy.
@@ -29,5 +47,73 @@ Elisa Alonso, Andrew~M Sherman, Timothy~J Wallington, Mark~P Everson, Frank~R
   revolutionary demand from clean technologies.
 \newblock \emph{Environmental science \& technology}, 46\penalty0 (6):\penalty0
   3406--3414, 2012.
+
+\bibitem[Zaimes et~al.(2015)Zaimes, Hubler, Wang, and Khanna]{Zaimes_SCE_2015}
+George~G. Zaimes, Berlyn~J. Hubler, Shuo Wang, and Vikas Khanna.
+\newblock Environmental life cycle perspective on rare earth oxide production.
+\newblock \emph{ACS Sustainable Chemistry \& Engineering}, 3\penalty0
+  (2):\penalty0 237--244, 2015.
+
+\bibitem[Gupta and Krishnamurthy(1992)]{Gupta_IMR_1992}
+CK~Gupta and N~Krishnamurthy.
+\newblock Extractive metallurgy of rare earths.
+\newblock \emph{International Materials Reviews}, 37\penalty0 (1):\penalty0
+  197--248, 1992.
+
+\bibitem[Sprecher et~al.(2014)Sprecher, Xiao, Walton, Speight, Harris, Kleijn,
+  Visser, and Kramer]{Sprecher_EST_2014}
+Benjamin Sprecher, Yanping Xiao, Allan Walton, John Speight, Rex Harris, Rene
+  Kleijn, Geert Visser, and Gert~Jan Kramer.
+\newblock Life cycle inventory of the production of rare earths and the
+  subsequent production of {NdFeB} rare earth permanent magnets.
+\newblock \emph{Environmental Science \& Technology}, 48\penalty0 (7):\penalty0
+  3951--3958, 2014.
+
+\bibitem[Chakhmouradian and Wall(2012)]{Chakmour_Elem_2012}
+Anton~R. Chakhmouradian and Frances Wall.
+\newblock Rare earth elements: {M}inerals, mines, magnets (and more).
+\newblock \emph{Elements}, 8\penalty0 (5):\penalty0 333--340, 2012.
+
+\bibitem[Hatch(2012)]{Hatch_Elem_2012}
+Gareth~P. Hatch.
+\newblock Dynamics in the global market for rare earths.
+\newblock \emph{Elements}, 8\penalty0 (5):\penalty0 341--346, 2012.
+
+\bibitem[Binnemans et~al.(2013)Binnemans, Jones, Blanpain, Van~Gerven, Yang,
+  Walton, and Buchert]{Binnemans_JCP_2013}
+Koen Binnemans, Peter~Tom Jones, Bart Blanpain, Tom Van~Gerven, Yongxiang Yang,
+  Allan Walton, and Matthias Buchert.
+\newblock Recycling of rare earths: a critical review.
+\newblock \emph{Journal of Cleaner Production}, 51:\penalty0 1--22, 2013.
+
+\bibitem[Binnemans et~al.(2015)Binnemans, Jones, Blanpain, Van~Gerven, and
+  Pontikes]{Binnemans_JCP_2015}
+Koen Binnemans, Peter~Tom Jones, Bart Blanpain, Tom Van~Gerven, and Yiannis
+  Pontikes.
+\newblock Towards zero-waste valorisation of rare-earth-containing industrial
+  process residues: a critical review.
+\newblock \emph{Journal of Cleaner Production}, 99\penalty0 (0):\penalty0
+  17--38, 2015.
+
+\bibitem[Tunsu et~al.(2015)Tunsu, Petranikova, Gergorić, Ekberg, and
+  Retegan]{Tunsu_Hydro_2015}
+Cristian Tunsu, Martina Petranikova, Marino Gergorić, Christian Ekberg, and
+  Teodora Retegan.
+\newblock Reclaiming rare earth elements from end-of-life products: A review of
+  the perspectives for urban mining using hydrometallurgical unit operations.
+\newblock \emph{Hydrometallurgy}, In press., 2015.
+
+\bibitem[Ciacci et~al.(2015)Ciacci, Reck, Nassar, and Graedel]{Ciacci_EST_2015}
+L.~Ciacci, B.~K. Reck, N.~T. Nassar, and T.~E. Graedel.
+\newblock Lost by design.
+\newblock \emph{Environmental Science \& Technology}, 49\penalty0
+  (16):\penalty0 9443--51, 2015.
+
+\bibitem[Bandara et~al.(2015)Bandara, Mantell, Darcy, and
+  Emmert]{Bandara_JSM_2015}
+H.~M.~Dhammika Bandara, Mark~A Mantell, Julia~W Darcy, and Marion~H Emmert.
+\newblock Rare earth recycling: Forecast of recoverable {Nd} from shredder
+  scrap and influence of recycling rates on price volatility.
+\newblock \emph{Journal of Sustainable Metallurgy}, pages 1--10, 2015.
 
 \end{thebibliography}

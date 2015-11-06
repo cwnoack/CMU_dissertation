@@ -28,7 +28,7 @@
 %	{\end{verbatim}
 %	 \end{snugshade}}
 
-\usepackage{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor = blue]{hyperref}
 
 \begin{document}
 
@@ -43,13 +43,15 @@
 This page intentionally left blank.
 \end{center}
 
-\clearpage`
+\clearpage
 
 %Title page
 \input{title_page}
 
 \input{thesis_abstract}
 
+{
+\hypersetup{linkcolor = black}
 \tableofcontents
 
 \listoftables
@@ -57,12 +59,13 @@ This page intentionally left blank.
 
 \listoffigures
 \addcontentsline{toc}{chapter}{List of Figures}
+}
 
 % Chapter 1 - Intro, problem, goals
 \mainmatter
 \include{Ch1_Introduction}
 
-\include{Ch2_Background}
+\include{REE_aq_chem}
 
 \include{Ch3_REE-in-water}
 

@@ -1,0 +1,154 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Castor and Hedrick(2006)]{CastorHedrick}
+Stephen~B. Castor and James~B. Hedrick.
+\newblock \emph{Rare Earth Elements}, pages 769--792.
+\newblock SME, 7 edition, 2006.
+
+\bibitem[Lide(2012)]{CRC}
+David~R Lide.
+\newblock \emph{{CRC} handbook of chemistry and physics}.
+\newblock CRC press, 2012.
+\newblock ISBN 1439880492.
+
+\bibitem[Murray et~al.(1990)Murray, Buchholtz~ten Brink, Jones, Gerlach, and
+  Russ]{Murray_Geol_1990}
+Richard~W. Murray, Marilyn~R. Buchholtz~ten Brink, David~L. Jones, David~C.
+  Gerlach, and G.Price Russ.
+\newblock Rare earth elements as indicators of different marine depositional
+  environments in chert and shale.
+\newblock \emph{Geology}, 18\penalty0 (3):\penalty0 268--271, 1990.
+
+\bibitem[Laveuf and Cornu(2009)]{Laveuf_Geoderma_2009}
+C~Laveuf and S~Cornu.
+\newblock A review on the potentiality of rare earth elements to trace
+  pedogenetic processes.
+\newblock \emph{Geoderma}, 154\penalty0 (1):\penalty0 1--12, 2009.
+\newblock ISSN 0016-7061.
+
+\bibitem[Nance and Taylor(1976)]{PAAS}
+W.~B. Nance and S.~R. Taylor.
+\newblock Rare earth element patterns and crustal evolution—{I. Australian
+  post-Archean sedimentary rocks}.
+\newblock \emph{Geochimica et Cosmochimica Acta}, 40\penalty0 (12):\penalty0
+  1539--1551, 1976.
+
+\bibitem[Hanson(1980)]{Hanson_AREPS_1980}
+G.~N. Hanson.
+\newblock Rare-earth elements in petrogenetic studies of igneous systems.
+\newblock \emph{Annual Review of Earth and Planetary Sciences}, 8:\penalty0
+  371--406, 1980.
+
+\bibitem[Krauskopf(1986)]{Krauskopf_CG_1986}
+K.~B. Krauskopf.
+\newblock Thorium and rare-earth metals as analogs for actinide elements.
+\newblock \emph{Chemical Geology}, 55\penalty0 (3–4):\penalty0 323--335,
+  1986.
+
+\bibitem[Millero(1992)]{Millero_GCA_1992}
+Frank~J. Millero.
+\newblock Stability constants for the formation of rare earth-inorganic
+  complexes as a function of ionic strength.
+\newblock \emph{Geochimica et Cosmochimica Acta}, 56\penalty0 (8):\penalty0
+  3123--3132, 1992.
+
+\bibitem[Jakubowski et~al.(1999)Jakubowski, Brandt, Stuewer, Eschnauer, and
+  Görtges]{Jakubowski_FJAC_1999}
+N.~Jakubowski, R.~Brandt, D.~Stuewer, H.~R. Eschnauer, and S.~Görtges.
+\newblock Analysis of wines by {ICP-MS}: Is the pattern of the rare earth
+  elements a reliable fingerprint for the provenance?
+\newblock \emph{Fresenius' Journal of Analytical Chemistry}, 364\penalty0
+  (5):\penalty0 424--428, 1999.
+
+\bibitem[Joebstl et~al.(2010)Joebstl, Bandoniene, Meisel, and
+  Chatzistathis]{Joebstl_FC_2010}
+D~Joebstl, D~Bandoniene, T~Meisel, and S~Chatzistathis.
+\newblock Identification of the geographical origin of pumpkin seed oil by the
+  use of rare earth elements and discriminant analysis.
+\newblock \emph{Food Chemistry}, 123\penalty0 (4):\penalty0 1303--1309, 2010.
+\newblock ISSN 0308-8146.
+
+\bibitem[Farmaki et~al.(2012)Farmaki, Thomaidis, Minioti, Ioannou, Georgiou,
+  and Efstathiou]{Farmaki_AL_2012}
+Eleni~G Farmaki, Nikolaos~S Thomaidis, Katerina~S Minioti, Evaggelia Ioannou,
+  Constantinos~A Georgiou, and Constantinos~E Efstathiou.
+\newblock Geographical characterization of {G}reek olive oils using rare earth
+  elements content and supervised chemometric techniques.
+\newblock \emph{Analytical Letters}, 45\penalty0 (8):\penalty0 920--932, 2012.
+
+\bibitem[De~Baar et~al.(1983)De~Baar, Bacon, and Brewer]{DeBaar_Nature_1983}
+H.~J.~W. De~Baar, M.~P. Bacon, and P.~G. Brewer.
+\newblock Rare-earth distributions with a positive {Ce} anomaly in the western
+  {N}orth-{A}tlantic ocean.
+\newblock \emph{Nature}, 301\penalty0 (5898):\penalty0 324--327, 1983.
+
+\bibitem[Elderfield et~al.(1988)Elderfield, Whitfield, Burton, Bacon, and
+  Liss]{Elderfield_PTRS_1988}
+H.~Elderfield, M.~Whitfield, J.~D. Burton, M.~P. Bacon, and P.~S. Liss.
+\newblock The oceanic chemistry of the rare-earth elements [and discussion].
+\newblock \emph{Philosophical Transactions of the Royal Society of London.
+  Series A, Mathematical and Physical Sciences}, 325\penalty0 (1583):\penalty0
+  105--126, 1988.
+
+\bibitem[Graedel et~al.(2015)Graedel, Harper, Nassar, Nuss, and
+  Reck]{Graedel_PNAS_2015a}
+T.~E. Graedel, E.~M. Harper, N.~T. Nassar, Philip Nuss, and Barbara~K. Reck.
+\newblock Criticality of metals and metalloids.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 112\penalty0
+  (14):\penalty0 4257--4262, 2015.
+
+\bibitem[Ciacci et~al.(2015)Ciacci, Reck, Nassar, and Graedel]{Ciacci_EST_2015}
+L.~Ciacci, B.~K. Reck, N.~T. Nassar, and T.~E. Graedel.
+\newblock Lost by design.
+\newblock \emph{Environmental Science \& Technology}, 49\penalty0
+  (16):\penalty0 9443--51, 2015.
+
+\bibitem[Nassar et~al.(2015)Nassar, Du, and Graedel]{Nassar_JIE_2015}
+N.~T. Nassar, Xiaoyue Du, and T.~E. Graedel.
+\newblock Criticality of the rare earth elements.
+\newblock \emph{Journal of Industrial Ecology}, In press., 2015.
+\newblock \doi{10.1111/jiec.12237}.
+
+\bibitem[Hannigan and Sholkovitz(2001)]{Hannigan_CG_2001}
+Robyn~E. Hannigan and Edward~R. Sholkovitz.
+\newblock The development of middle rare earth element enrichments in
+  freshwaters: weathering of phosphate minerals.
+\newblock \emph{Chemical Geology}, 175\penalty0 (3–4):\penalty0 495--508,
+  2001.
+
+\bibitem[Tang and Johannesson(2010)]{Tang_CG_2010}
+Jianwu Tang and Karen~H. Johannesson.
+\newblock Rare earth elements adsorption onto {C}arrizo sand: Influence of
+  strong solution complexation.
+\newblock \emph{Chemical Geology}, 279\penalty0 (3–4):\penalty0 120--133,
+  2010.
+
+\bibitem[Choi et~al.(2009)Choi, Yun, Koh, Mayer, Park, and
+  Hutcheon]{Choi_CG_2009}
+Hyeon-Su Choi, Seong-Taek Yun, Yong-Kwon Koh, Bernhard Mayer, Seong-Sook Park,
+  and Ian Hutcheon.
+\newblock Geochemical behavior of rare earth elements during the evolution of
+  \ce{CO2}-rich groundwater: A study from the {K}angwon district, {South
+  Korea}.
+\newblock \emph{Chemical Geology}, 262\penalty0 (3–4):\penalty0 318--327,
+  2009.
+
+\bibitem[Brookins(1989)]{Brookins_RMG_1989}
+D.~G. Brookins.
+\newblock Aqueous geochemistry of rare earth elements.
+\newblock \emph{Reviews in Mineralogy and Geochemistry}, 21\penalty0
+  (1):\penalty0 201--225, 1989.
+
+\bibitem[Bau and Dulski(1996)]{Bau_EPSL_1996}
+Michael Bau and Peter Dulski.
+\newblock Anthropogenic origin of positive gadolinium anomalies in river
+  waters.
+\newblock \emph{Earth and Planetary Science Letters}, 143\penalty0
+  (1):\penalty0 245--255, 1996.
+
+\end{thebibliography}
