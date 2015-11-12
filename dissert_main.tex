@@ -10,7 +10,7 @@
 \usepackage{multirow,booktabs,appendix}
 \usepackage{graphicx, rotating}
 \usepackage[bf, small, centerlast]{caption}
-\usepackage{framed}
+\usepackage{framed,tcolorbox,enumitem}
 \definecolor{shadecolor}{rgb}{0.97,0.97,0.97}
 \setlength{\captionmargin}{8pt}
 \setlength{\belowcaptionskip}{0pt}
@@ -29,6 +29,11 @@
 %	 \end{snugshade}}
 
 \usepackage[colorlinks=true, linkcolor=blue, citecolor = blue]{hyperref}
+\usepackage{forest,array}
+\newcolumntype{C}[1]{>{\centering}p{#1}}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
 
 \begin{document}
 

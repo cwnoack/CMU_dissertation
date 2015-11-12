@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -150,5 +150,105 @@ Michael Bau and Peter Dulski.
   waters.
 \newblock \emph{Earth and Planetary Science Letters}, 143\penalty0
   (1):\penalty0 245--255, 1996.
+
+\bibitem[Pearson(1963)]{Pearson_JACS_1963}
+Ralph~G Pearson.
+\newblock Hard and soft acids and bases.
+\newblock \emph{Journal of the American Chemical Society}, 85\penalty0
+  (22):\penalty0 3533--3539, 1963.
+
+\bibitem[Johannesson and Lyons(1994)]{Johannesson_LO_1994}
+K.~H. Johannesson and W.~B. Lyons.
+\newblock The rare-earth element geochemistry of mono lake water and the
+  importance of carbonate complexing.
+\newblock \emph{Limnology and Oceanography}, 39\penalty0 (5):\penalty0
+  1141--1154, 1994.
+
+\bibitem[Johannesson et~al.(1995)Johannesson, Lyons, Stetzenbach, and
+  Byrne]{Johannesson_AG_1995}
+Kevin~H. Johannesson, W.~Berry Lyons, Klaus~J. Stetzenbach, and Robert~H.
+  Byrne.
+\newblock The solubility control of rare earth elements in natural terrestrial
+  waters and the significance of \ce{PO4^3-} and \ce{CO3^2-} in limiting
+  dissolved rare earth concentrations: A review of recent information.
+\newblock \emph{Aquatic Geochemistry}, 1\penalty0 (2):\penalty0 157--173, 1995.
+
+\bibitem[Wood(1990)]{Wood_CG_1990}
+Scott~A Wood.
+\newblock The aqueous geochemistry of the rare-earth elements and yttrium: 1.
+  {R}eview of available low-temperature data for inorganic complexes and the
+  inorganic {REE} speciation of natural waters.
+\newblock \emph{Chemical Geology}, 82:\penalty0 159--186, 1990.
+
+\bibitem[Lee and Byrne(1992)]{Lee_GCA_1992}
+Jong~Hyeon Lee and Robert~H. Byrne.
+\newblock Examination of comparative rare earth element complexation behavior
+  using linear free-energy relationships.
+\newblock \emph{Geochimica et Cosmochimica Acta}, 56\penalty0 (3):\penalty0
+  1127--1137, 1992.
+
+\bibitem[Liu and Byrne(1998)]{Liu_JSC_1998}
+Xuewu Liu and Robert Byrne.
+\newblock Comprehensive investigation of yttrium and rare earth element
+  complexation by carbonate ions using {ICP}–mass spectrometry.
+\newblock \emph{Journal of Solution Chemistry}, 27\penalty0 (9):\penalty0
+  803--815, 1998.
+
+\bibitem[Klungness and Byrne(2000)]{Klugness_Poly_2000}
+Greta~D. Klungness and Robert~H. Byrne.
+\newblock Comparative hydrolysis behavior of the rare earths and yttrium: the
+  influence of temperature and ionic strength.
+\newblock \emph{Polyhedron}, 19\penalty0 (1):\penalty0 99--107, 2000.
+
+\bibitem[Luo and Byrne(2000)]{Luo_JSC_2000}
+Yu-Ran Luo and Robert~H. Byrne.
+\newblock The ionic strength dependence of rare earth and yttrium fluoride
+  complexation at 25$^\circ$c.
+\newblock \emph{Journal of Solution Chemistry}, 29\penalty0 (11):\penalty0
+  1089--1099, 2000.
+
+\bibitem[Luo and Byrne(2001)]{Luo_JSC_2001}
+Yu-Ran Luo and Robert~H. Byrne.
+\newblock Yttrium and rare earth element complexation by chloride ions at
+  25$^\circ$c.
+\newblock \emph{Journal of Solution Chemistry}, 30\penalty0 (9):\penalty0
+  837--845, 2001.
+
+\bibitem[Grimes and Nash(2014)]{Grimes_JSC_2014}
+Travis~S Grimes and Kenneth~L Nash.
+\newblock Acid dissociation constants and rare earth stability constants for
+  dtpa.
+\newblock \emph{Journal of Solution Chemistry}, 43\penalty0 (2):\penalty0
+  298--313, 2014.
+
+\bibitem[Morel and Hering(1993)]{Morel_Hering}
+François~M.M. Morel and Janet~G. Hering.
+\newblock \emph{{Principles and Applications of Aquatic Chemistry}}.
+\newblock John Wiley \& Sons, Inc., 1993.
+
+\bibitem[Noack et~al.(2014)Noack, Dzombak, and Karamalidis]{Noack_EST_2014}
+Clinton~W. Noack, David~A. Dzombak, and Athanasios~K. Karamalidis.
+\newblock Rare earth element distributions and trends in natural waters with a
+  focus on groundwater.
+\newblock \emph{Environmental Science \& Technology}, 48\penalty0 (8):\penalty0
+  4317--4326, 2014.
+
+\bibitem[Parkhurst and Appelo(2013)]{PHREEQC}
+David~L Parkhurst and CAJ Appelo.
+\newblock Description of input and examples for {PHREEQC} version 3: a computer
+  program for speciation, batch-reaction, one-dimensional transport, and
+  inverse geochemical calculations.
+\newblock Technical report, US Geological Survey, 2013.
+
+\bibitem[{R Core Team}(2014)]{R}
+{R Core Team}.
+\newblock \emph{R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2014.
+\newblock URL \url{http://www.R-project.org/}.
+
+\bibitem[Breit and Otton(2002)]{ProdWat}
+G.N. Breit and J.K. Otton.
+\newblock Produced waters database, 2002.
+\newblock URL \url{http://energy.cr.usgs.gov/prov/prodwat/contact.htm}.
 
 \end{thebibliography}

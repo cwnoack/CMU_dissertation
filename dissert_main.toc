@@ -5,52 +5,57 @@
 \contentsline {chapter}{\numberline {1}Introduction, problem identification, and research goals}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem identification}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Research goals}{5}{section.1.3}
+\contentsline {section}{\numberline {1.3}Research goals}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}REE abundance and trends in terrestrial waters}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Analytical method development for REE measurement in hypersaline fluids}{7}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Novel extractive technologies for REE recovery from geothermal waters}{8}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Thesis organization}{8}{section.1.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
-\contentsline {chapter}{\numberline {2}Aqueous chemistry of the rare earth elements (REE)}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}What are the REE?}{9}{section.2.1}
+\contentsline {chapter}{\numberline {2}Aqueous chemistry of the rare earth elements (REE)}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}What are the REE?}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}REE speciation in natural waters}{13}{section.2.2}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\numberline {3}Rare earth element distributions and trends in natural waters with a focus on groundwater}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Data assimilation and criteria}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Analysis of censored data}{18}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Reference-normalized element anomalies and ratios}{21}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Geochemical modelling}{22}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Results and discussion}{23}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Occurrence of REE in aqueous media}{23}{subsection.3.3.1}
-\contentsline {subsubsection}{Groundwater}{23}{section*.14}
-\contentsline {subsubsection}{Terrestrial surface water}{25}{section*.16}
-\contentsline {subsubsection}{Seawater}{26}{section*.17}
-\contentsline {subsubsection}{Shale-normalized anomalies and ratios}{26}{section*.18}
-\contentsline {subsection}{\numberline {3.3.2}REE abundance trends in groundwater}{28}{subsection.3.3.2}
-\contentsline {subsubsection}{Major element chemistry of the groundwater data}{31}{section*.26}
-\contentsline {subsection}{\numberline {3.3.3}Limitations of assembled dataset}{38}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {3}Rare earth element distributions and trends in natural waters with a focus on groundwater}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Data assimilation and criteria}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Analysis of censored data}{28}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Reference-normalized element anomalies and ratios}{31}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Geochemical modelling}{32}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Results and discussion}{33}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Occurrence of REE in aqueous media}{33}{subsection.3.3.1}
+\contentsline {subsubsection}{Groundwater}{33}{section*.21}
+\contentsline {subsubsection}{Terrestrial surface water}{35}{section*.23}
+\contentsline {subsubsection}{Seawater}{36}{section*.24}
+\contentsline {subsubsection}{Shale-normalized anomalies and ratios}{36}{section*.25}
+\contentsline {subsection}{\numberline {3.3.2}REE abundance trends in groundwater}{38}{subsection.3.3.2}
+\contentsline {subsubsection}{Major element chemistry of the groundwater data}{41}{section*.33}
+\contentsline {subsection}{\numberline {3.3.3}Limitations of assembled dataset}{48}{subsection.3.3.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {4}Determination of Rare Earth Elements in Hypersaline Solutions Using Low-Volume, Liquid-Liquid Extraction}{54}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{55}{section.4.1}
-\contentsline {section}{\numberline {4.2}Modified liquid-liquid extraction procedure}{57}{section.4.2}
-\contentsline {section}{\numberline {4.3}Materials and methods}{60}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Chemicals and equipment}{60}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Recovery analysis by surrogate recovery}{61}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Preparation of synthetic brines}{63}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Optimization of liquid-liquid operation parameters}{63}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Results and discussion}{66}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Multiple linear-regression of organic-aqueous distribution coefficients}{66}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Interferences of synthetic brine constituents}{69}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Advice regarding natural samples}{72}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {4}Determination of Rare Earth Elements in Hypersaline Solutions Using Low-Volume, Liquid-Liquid Extraction}{64}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{65}{section.4.1}
+\contentsline {section}{\numberline {4.2}Modified liquid-liquid extraction procedure}{67}{section.4.2}
+\contentsline {section}{\numberline {4.3}Materials and methods}{70}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Chemicals and equipment}{70}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Recovery analysis by surrogate recovery}{71}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Preparation of synthetic brines}{73}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Optimization of liquid-liquid operation parameters}{73}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Results and discussion}{76}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Multiple linear-regression of organic-aqueous distribution coefficients}{76}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Interferences of synthetic brine constituents}{79}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Advice regarding natural samples}{82}{subsection.4.4.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {A}Supporting information for Chapter\nobreakspace {}\ref {chap:REE-review}}{80}{appendix.A}
-\contentsline {section}{\numberline {A.1}Weighted Kaplan-Meier estimation of survival function for analyzing left-censored data}{80}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Generation of random data}{81}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Functions of the weighted Kaplan-Meier routine}{83}{subsection.A.1.2}
+\contentsline {chapter}{\numberline {A}Supporting information for Chapter\nobreakspace {}\ref {chap:REE-review}}{90}{appendix.A}
+\contentsline {section}{\numberline {A.1}Weighted Kaplan-Meier estimation of survival function for analyzing left-censored data}{90}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Generation of random data}{91}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Functions of the weighted Kaplan-Meier routine}{93}{subsection.A.1.2}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {B}Supporting information for Chapter\nobreakspace {}\ref {chap:LLE}}{90}{appendix.B}
-\contentsline {section}{\numberline {B.1}Barium removal and background REE concentrations}{90}{section.B.1}
-\contentsline {section}{\numberline {B.2}Doehlert experimental results}{93}{section.B.2}
+\contentsline {chapter}{\numberline {B}Supporting information for Chapter\nobreakspace {}\ref {chap:LLE}}{100}{appendix.B}
+\contentsline {section}{\numberline {B.1}Barium removal and background REE concentrations}{100}{section.B.1}
+\contentsline {section}{\numberline {B.2}Doehlert experimental results}{103}{section.B.2}
 \gdef \the@ipfilectr {}
